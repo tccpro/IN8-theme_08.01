@@ -1,0 +1,817 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "5414427e-e261-4714-ae20-58620277791b": {
+          "type": "text",
+          "settings": {
+            "text": "Or 4 interest-free payments of $125 with Sezzle.",
+            "text_style": "uppercase"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "a2f99941-3352-4893-a966-28ae22a48e66": {
+          "type": "text",
+          "settings": {
+            "text": "Get it by Fri, Mar 4 with FREE shipping",
+            "text_style": "uppercase"
+          }
+        },
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free Shipping",
+            "icon": "truck",
+            "content": "<p>Enjoy free shipping on all orders over $99.<\/p>",
+            "page": ""
+          }
+        },
+        "514e2155-c0a3-4737-ac7a-12645498d722": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "1-Year Warranty Included",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Pay over time",
+            "icon": "price_tag",
+            "content": "<p>Check out with Sezzle and split your entire order into 4 interest-﻿free payments over 6 weeks.<\/p>",
+            "page": ""
+          }
+        },
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Included In The box",
+            "icon": "box",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5",
+        "price",
+        "5414427e-e261-4714-ae20-58620277791b",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "buy_buttons",
+        "a2f99941-3352-4893-a966-28ae22a48e66",
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a",
+        "514e2155-c0a3-4737-ac7a-12645498d722",
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2",
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1644551415b3758d0d": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1644551415486b0933-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hitoki-Product-Valentines-Day-2022.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1644551415486b0933-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1644551415486b0933-0",
+        "1644551415486b0933-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "16459466704f3996a2": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/YFe1Nt_Q.png",
+        "description": "The Trident",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=kV__iZuxDGE",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1645946405d2f23caf": {
+      "type": "slideshow",
+      "blocks": {
+        "1645946405282c4db9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Loading.png",
+            "heading": "Loading Chamber",
+            "heading_size": "medium",
+            "subheading": "Text about the loading chamber such as how much product it can hold and how many uses in a chamber.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1645946405282c4db9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/talking-to-smarthome-assistant-device.jpg",
+            "heading": "Magnetic Interlock",
+            "heading_size": "medium",
+            "subheading": "Use this text to share information about how it wont work unless its locked it and how it protects your customers.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e77a42f7-744c-42a9-9387-09d3c390ebf8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand-grips-a-black-microphone-against-red-background.jpg",
+            "heading": "Safe Viewing Shield",
+            "heading_size": "medium",
+            "subheading": "Use this text to share information about how the laser is protected.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1645946405282c4db9-0",
+        "1645946405282c4db9-1",
+        "e77a42f7-744c-42a9-9387-09d3c390ebf8"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "numbers",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "16468916832b3488c4": {
+      "type": "image-banner",
+      "blocks": {
+        "1646891683b53292dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1646891683b53292dd-1": {
+          "type": "text",
+          "settings": {
+            "text": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.",
+            "text_style": "body"
+          }
+        },
+        "1646891683b53292dd-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1646891683b53292dd-0",
+        "1646891683b53292dd-1",
+        "1646891683b53292dd-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16459459727fad551d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1645945972e03c90dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Loading Chamber",
+            "heading_size": "h1"
+          }
+        },
+        "1645945972e03c90dd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text about the loading chamber such as how much product it can hold and how many hits before having to change out the chamber.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1645945972e03c90dd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645945972e03c90dd-0",
+        "1645945972e03c90dd-1",
+        "1645945972e03c90dd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/curology-wK0h-mlvfuc-unsplash.jpg",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 24
+      }
+    },
+    "1645948903b26e75f7": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16459489039e0582d2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shield",
+            "heading_size": "h1"
+          }
+        },
+        "16459489039e0582d2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16459489039e0582d2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16459489039e0582d2-0",
+        "16459489039e0582d2-1",
+        "16459489039e0582d2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nicolas-lafargue-2FcSIYJQkTM-unsplash.jpg",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "16459490186a133dd0": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1645949017df277db2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interlock",
+            "heading_size": "h1"
+          }
+        },
+        "1645949017df277db2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add details on availability, style, or even provide a review here.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1645949017df277db2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645949017df277db2-0",
+        "1645949017df277db2-1",
+        "1645949017df277db2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1646892231dcdbc5f4": {
+      "type": "page",
+      "settings": {
+        "page": "quotes",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164594613308c53573": {
+      "type": "multicolumn",
+      "blocks": {
+        "164594613372bf6ef9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rahul-chakraborty-nGzvZe1iWOY-unsplash.jpg",
+            "title": "Locking Chamber",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164594613372bf6ef9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rahul-chakraborty-E_mHYosg98k-unsplash.jpg",
+            "title": "Bowl",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164594613372bf6ef9-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/drone-flying-overhead.jpg",
+            "title": "Water Filter",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164594613372bf6ef9-1",
+        "164594613372bf6ef9-0",
+        "164594613372bf6ef9-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1645947483dffbba67": {
+      "type": "multicolumn",
+      "blocks": {
+        "16459474829c0c4d06-0": {
+          "type": "column",
+          "settings": {
+            "title": "FULL SPECS",
+            "text": "<p>Hand-blown borosilicate glass<br\/>Water filtration<br\/>4 unique user heat settings<br\/>20 sec average heat up time<br\/>Intelligent temperature calibration<br\/>Sesh-Mode Functionality<br\/>7” high x 2.75” base<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16459474829c0c4d06-1": {
+          "type": "column",
+          "settings": {
+            "title": "DEVICE CAPABILITIES",
+            "text": "<p>FLAVOR  5\/5<\/p><p>DOSE   5\/5<\/p><p>SIZE  5\/5<\/p><p>BATTERY   5\/5<\/p><p>LIFE  5\/5<\/p><p>VAPOR  5\/5<\/p><p>ON-THE-GO  5\/5<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16459474829c0c4d06-0",
+        "16459474829c0c4d06-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1645947890e8a98ec4": {
+      "type": "rich-text",
+      "blocks": {
+        "164594789026127dd5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "WE CHOSE THE HIGH ROAD",
+            "heading_size": "h1"
+          }
+        },
+        "164594789026127dd5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>The cleanest, most potent and flavorful consumption experience with no learning curve. Industry leading innovation, strictly done in-house. No glues, fibers, or chemicals in any airways. The most awarded vaporizers and products.<\/p>"
+          }
+        },
+        "164594789026127dd5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download User Manual",
+            "button_link": "shopify:\/\/pages\/qr-code-scan",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164594789026127dd5-0",
+        "164594789026127dd5-1",
+        "164594789026127dd5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1645947729593f8e62": {
+      "type": "apps",
+      "blocks": {
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16459481815fc42209": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "TRIDENT ACCESSORIES",
+        "collection": "trident",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "1645948319a881d5c7": {
+      "type": "collage",
+      "blocks": {
+        "5a280d45-fb08-4010-9c21-b7552ef38246": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-cellphone-with-lit-screen-floating-over-white-background.jpg",
+            "image_padding": false
+          }
+        },
+        "98e790a1-95f8-4251-8d81-fe5e2a6135c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grey-man-purple-smoke.jpg",
+            "image_padding": false
+          }
+        },
+        "e2d5ac47-1b88-4268-8e36-825558ed4a38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-life-guard-hut-on-the-beach.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "5a280d45-fb08-4010-9c21-b7552ef38246",
+        "98e790a1-95f8-4251-8d81-fe5e2a6135c3",
+        "e2d5ac47-1b88-4268-8e36-825558ed4a38"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "164594902069aa5dc9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "16459490207e540225-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I power the Trident on\/off?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16459490207e540225-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long can my Hitoki perform on a full charge?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16459490207e540225-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much ground material can fit inside the heating chamber?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16459490207e540225-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can concentrates be used in the Trident?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16459490207e540225-0",
+        "16459490207e540225-1",
+        "16459490207e540225-3",
+        "16459490207e540225-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "TRIDENT VAPORIZER FAQS",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "SIMILAR RECOMMENDATIONS",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "16459483359f6cafb6": {
+      "type": "image-banner",
+      "blocks": {
+        "1645948335f7b7be38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE CHOSE THE HIGH ROAD",
+            "heading_size": "medium"
+          }
+        },
+        "1645948335f7b7be38-1": {
+          "type": "text",
+          "settings": {
+            "text": "The cleanest, most potent and flavorful consumption experience with no learning curve. Industry leading innovation, strictly done in-house. No glues, fibers, or chemicals in any airways. The most awarded vaporizers and products.",
+            "text_style": "body"
+          }
+        },
+        "1645948335f7b7be38-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1645948335f7b7be38-0",
+        "1645948335f7b7be38-1",
+        "1645948335f7b7be38-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aerial-photo-of-paved-road-through-the-desert.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644551415b3758d0d",
+    "16459466704f3996a2",
+    "1645946405d2f23caf",
+    "16468916832b3488c4",
+    "16459459727fad551d",
+    "1645948903b26e75f7",
+    "16459490186a133dd0",
+    "1646892231dcdbc5f4",
+    "164594613308c53573",
+    "1645947483dffbba67",
+    "1645947890e8a98ec4",
+    "1645947729593f8e62",
+    "16459481815fc42209",
+    "1645948319a881d5c7",
+    "164594902069aa5dc9",
+    "product-recommendations",
+    "16459483359f6cafb6"
+  ]
+}

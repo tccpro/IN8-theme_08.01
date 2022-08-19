@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16509391218603f2f5": {
+      "type": "featured-press",
+      "blocks": {
+        "92f88862-bc50-4588-88ad-e4e0897af84f": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Featured_Partner_0.0.1_494ca78a-568c-425b-b145-b73ed7bb6a2a.png",
+            "date": "Cannabis Life Network, January 15, 2022",
+            "blog_title": "Laser bong review - The Hitoki Trident v2",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "19777fcc-15eb-4e3b-80a1-cb48145435d2": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Featured_Partner_0.0.1_091d1cc5-3c13-4b8b-b1a6-507aa89e29d9.png",
+            "date": "Lansing City Pulse, March 31, 2022",
+            "blog_title": "The future is here — and it’s a frickin’ laser bong",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "00f70e71-96bd-4aa9-8544-613e837cd418": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Featured_Partner_0_0_5.png",
+            "date": "Leafly. December 6, 2021",
+            "blog_title": "The Leafly buyer’s guide to bongs",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "db06e046-53e6-4055-a3f0-e6bf3441ca5e": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.7.png",
+            "date": "Forbes. November 28, 2021",
+            "blog_title": "Holiday Gift Guide 2021: The Best High-Tech Cannabis Gear",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "3e6fbb54-3ef4-4921-98da-f9b15a878a94": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.8.png",
+            "date": "Cannabis Now. November 26, 2021",
+            "blog_title": "2021 Top Cannabis Gifts",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "2d6d02c3-df2f-40f6-9b31-7b3507b5ce0a": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Hitoki_Black_Charge.png",
+            "date": "TechCrunch. November 25, 2021",
+            "blog_title": "Gift Guide: Give the gift of cannabis with these 9 high-tech smoking devices",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "ae0ead0e-21c9-430b-b7bb-60812c5c43d9": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Nylon_Sport_Feature_0_0_1_1240f8e4-add8-43aa-9571-8afae72e11c8.png",
+            "date": "Herb. November 23, 2021",
+            "blog_title": "The Top 21 Inventions Of 2021",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "61355190-d371-4133-9360-39051250fe75": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Tra_Boba_Homepage_Image_0.0.1.png",
+            "date": "MG Magazine. November 15, 2021",
+            "blog_title": "Hitoki launches the Trident v2 with new and improved features",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "ac218098-bf66-4b53-b66a-56ce3c71a46c": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Nylon_Sport_Feature_0_0_4.png",
+            "date": "Weedmaps. Holiday, 2021",
+            "blog_title": "Everything you need to know about the Hitoki Trident 'laser bong'",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "0de1f18f-ab94-467b-b38b-c39df0693df0": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Nylon_Sport_Feature_0_0_3.png",
+            "date": "Marijuana Venture. June 2, 2021",
+            "blog_title": "40 under 40",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "9bffcc44-e7ea-4340-b7c8-f86276a4a847": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.6.png",
+            "date": "Ganjapreneur. May 14, 2021",
+            "blog_title": "The Trident by Hitoki Review",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "3cb05f48-38f9-4056-acf7-47fb88e468c5": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.2.png",
+            "date": "Green Entrepreneur. April 20, 2021",
+            "blog_title": "420 Gifts For The One You Love",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        },
+        "fac839eb-833b-44fc-a557-19d98204cabc": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.5.png",
+            "date": "Mashable. April 20, 2021",
+            "blog_title": "Hitoki's High-Tech Bong Lets You Smoke Weed With A Laser, And It's As Cool As It Sounds",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/mashable.com\/review\/hitoki-trident-laser-bong-review\/"
+          }
+        },
+        "19fb7e7d-b47d-499b-9b23-866128e3caad": {
+          "type": "blog",
+          "settings": {
+            "blog_logo": "shopify:\/\/shop_images\/Homepage_Image_0.0.3.png",
+            "date": "Cannigma. March 15, 2021",
+            "blog_title": "The Coolest Weed Gagets We've ever Seen",
+            "blog_article": "A smoking device that is solid, effective, and easy on the body.",
+            "link": "https:\/\/cannabislifenetwork.com\/hitokis-trident-v2\/"
+          }
+        }
+      },
+      "block_order": [
+        "92f88862-bc50-4588-88ad-e4e0897af84f",
+        "19777fcc-15eb-4e3b-80a1-cb48145435d2",
+        "00f70e71-96bd-4aa9-8544-613e837cd418",
+        "db06e046-53e6-4055-a3f0-e6bf3441ca5e",
+        "3e6fbb54-3ef4-4921-98da-f9b15a878a94",
+        "2d6d02c3-df2f-40f6-9b31-7b3507b5ce0a",
+        "ae0ead0e-21c9-430b-b7bb-60812c5c43d9",
+        "61355190-d371-4133-9360-39051250fe75",
+        "ac218098-bf66-4b53-b66a-56ce3c71a46c",
+        "0de1f18f-ab94-467b-b38b-c39df0693df0",
+        "9bffcc44-e7ea-4340-b7c8-f86276a4a847",
+        "3cb05f48-38f9-4056-acf7-47fb88e468c5",
+        "fac839eb-833b-44fc-a557-19d98204cabc",
+        "19fb7e7d-b47d-499b-9b23-866128e3caad"
+      ],
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/background.jpg",
+        "image_height_desktop": "450px",
+        "image_height_mobile": "250px",
+        "banner_title": "In The Press",
+        "title_color": "white",
+        "introduction": "For media enquiries, email <a href=\"press@hitoki.com\">press@hitoki.com<\/a><br>\nFor brand and influencer partnerships, email <a href=\"marketing@hitoki.com\">marketing@hitoki.com<\/a>",
+        "text_color": "#778379",
+        "enable_logo_display": true,
+        "logo_position": "top",
+        "logo_height_mobile": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16509391218603f2f5"
+  ]
+}

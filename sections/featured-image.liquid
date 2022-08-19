@@ -1,0 +1,435 @@
+{%- style -%}
+  #Banner-{{ section.id }} {
+    margin-top: {{ section.settings.top_space_size }}px;
+    margin-bottom: {{ section.settings.bottom_space_size }}px;
+  }
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} {
+      margin-top: {{ section.settings.top_space_size | divided_by : 2 }}px;
+      margin-bottom: {{ section.settings.bottom_space_size | divided_by : 2 }}px;
+    }
+  }
+  #Banner-{{ section.id }} .overlay {
+    opacity: {{ section.settings.overlay_opacity | divided_by: 100.00 }};
+  }
+{%- endstyle -%}
+<div id="Banner-{{ section.id }}" class="banner featured_image_banner banner--{{ section.settings.image_height }} {% if section.settings.enable_parallax == true%} js-parallax-elm-box {% endif %}" 
+>
+  <div class="overlay"></div>
+  {%- if section.settings.image != blank -%}    
+    <div class="banner__media featured_banner media{% if section.settings.image == blank %} placeholder{% endif %} 
+     img-position-{% if section.settings.img_position != blank and section.settings.image_height != 'Original' and section.settings.enable_parallax == true%}{{section.settings.img_position}}{% endif %}" 
+    >
+      <img class="banner_img {% if section.settings.enable_parallax == true and section.settings.image_height != "Original" %} js-parallax-elm {% endif %}"
+        srcset="{{ section.settings.image | img_url: 'master' }} "
+        src="{{ section.settings.image | img_url: 'master' }}"
+        loading="lazy"
+        alt="{{ section.settings.image.alt | escape }}"
+        {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
+      >
+    </div>
+  {%- else -%}
+    <div class="banner__media media {% if section.settings.image == blank %} placeholder{% endif %}">
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    </div>
+  {%- endif -%}
+  <div class="banner__content featured_banner_content banner__content_position page-width featured-image__content-{{ section.settings.content_position }}">
+    <div class="featured_content_inner featured_color_{{section.settings.text_color}} " >
+      {%- if section.settings.heading != blank -%}      
+      <h2 class="featured_banner__heading">
+        {{ section.settings.heading | escape }}
+      </h2>
+      {%- endif -%}
+      {%- if section.settings.sub_heading != blank -%}
+      <div class="featured_banner__text">
+        <span>{{ section.settings.sub_heading | escape }}</span>
+      </div>
+      {%- endif -%}
+      {% if section.settings.enable_button_separate != true or section.settings.button_position == section.settings.content_position %}
+        {%- if section.settings.button_label != blank -%}
+        <a role="link" href="{{ section.settings.button_link }}" class="featured_banner__buttons featured_button_{{ section.settings.button_style }}">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%} 
+      {% endif %} 
+    </div>
+  </div>
+  {% if section.settings.enable_button_separate == true and section.settings.button_position != section.settings.content_position %}
+    <div class="banner__content featured_banner_content banner__content_position page-width featured-image__content-{{ section.settings.button_position }}">
+      <div class="featured_content_inner featured_color_{{section.settings.text_color}} featured_padding_top" >
+        {%- if section.settings.button_label != blank -%}
+          <a role="link" href="{{ section.settings.button_link }}" class="featured_banner__buttons featured_button_{{ section.settings.button_style }}">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%} 
+      </div>
+    </div>
+  {% endif %} 
+</div>
+<script>
+  parallax();
+  function parallax() {
+    const targetClass = '.js-parallax-elm-box';
+    const childClass = '.js-parallax-elm';
+    const targets = Array.prototype.slice.call(document.querySelectorAll(targetClass),0);
+    if(targets.length === 0) {
+      return false;
+    }
+
+    let winH = window.innerHeight;
+    window.addEventListener('resize', function(){
+      winH = window.innerHeight;
+    });
+
+    let observer = new IntersectionObserver(observerFunc, {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0
+    });
+
+    let setListener =  [];
+    targets.forEach((target,index) => {
+      target.setAttribute('data-index',index);
+      setListener.push(
+        {
+          target: target,
+          handleEvent: function handleEvent () {
+            parallaxFunk(target);
+          }
+        }
+      );
+      parallaxFunk(target);
+      observer.observe(target);
+    });
+
+    function observerFunc(entries) {
+      entries.forEach(entry => {
+        const listener =  setListener[entry.target.getAttribute('data-index')];
+        if(entry.isIntersecting) {
+          window.addEventListener('scroll', listener, false);
+        } else {
+          window.removeEventListener('scroll', listener, false);
+        }
+      });
+    }
+
+    function parallaxFunk(target) {
+        const child = target.querySelector(childClass);
+        if(!child) {
+          return false;
+        }        
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollBottom = scrollTop + winH;
+        const targetPosi =  target.getBoundingClientRect().top + scrollTop;
+        const targetHeight =  target.clientHeight;
+        const childHeight = child.clientHeight;
+        const maxVal = childHeight - targetHeight;
+        const setVal = ((scrollBottom - targetPosi)*0.3).toFixed(1);
+        child.style.transform = 'translate3d(0,'+(-Math.min(setVal,maxVal))+'px,0)';
+    }
+  }
+</script>
+{% schema %}
+{
+  "name": "Featured Image",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "Full",
+          "label": "Full Screen"
+        },
+        {
+          "value": "Original",
+          "label": "Original"
+        },
+        {
+          "value": "lg",
+          "label": "750px"
+        },
+        {
+          "value": "md",
+          "label": "650px"
+        },
+        {
+          "value": "sm",
+          "label": "550px"
+        },
+        {
+          "value": "xs",
+          "label": "450px"
+        }
+      ],
+      "default": "Full",
+      "label": "Height on Desktop"
+    },
+    {
+      "type": "select",
+      "id": "mobile_height",
+      "options": [
+        {
+          "value": "Full",
+          "label": "Full Screen"
+        },
+        {
+          "value": "Original",
+          "label": "Original"
+        },
+        {
+          "value": "lg",
+          "label": "550px"
+        },
+        {
+          "value": "md",
+          "label": "450px"
+        },
+        {
+          "value": "sm",
+          "label": "350px"
+        },
+        {
+          "value": "xs",
+          "label": "250px"
+        }
+      ],
+      "default": "md",
+      "label": "Height on Mobile"
+    },
+    {
+      "type": "select",
+      "id": "content_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top Right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle Left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle Center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle Right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom Center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "bottom-center",
+      "label": "Content alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_button_separate",
+      "default": false,
+      "label": "Enable Button Separate"
+    },
+    {
+      "type": "select",
+      "id": "button_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top Right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle Left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle Center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle Right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom Center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "middle-center",
+      "label": "Button position"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_parallax",
+      "default": true,
+      "label": "Enable parallax"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "IMAGE"
+    },
+    {
+      "type": "select",
+      "id": "img_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center",
+      "label": "Position"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "step": 5,
+      "max": 100,
+      "default": 10,
+      "unit": "%"
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "options": [
+        {
+          "value": "white",
+          "label": "Light"
+        },
+        {
+          "value": "black",
+          "label": "Dark"
+        }
+      ],
+      "default": "white",
+      "label": "Color"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Award winning selection"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_heading",
+      "label": "SubHeading"
+    },
+    {
+      "type": "header",
+      "content": "BUTTON"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "link"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Primary"
+        },
+        {
+          "value": "secondary",
+          "label": "Secondary"
+        }
+      ],
+      "default": "primary",
+      "label": "Style"
+    },
+    {
+      "type": "range",
+      "id": "top_space_size",
+      "label": "Top space",
+      "min": 0,
+      "step": 5,
+      "max": 150,
+      "default": 60,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "bottom_space_size",
+      "label": "Bottom space",
+      "min": 0,
+      "step": 5,
+      "max": 150,
+      "default": 60,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Image"
+    }
+  ]
+}
+{% endschema %}
+    

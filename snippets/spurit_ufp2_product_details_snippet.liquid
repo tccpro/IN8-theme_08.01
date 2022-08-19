@@ -1,0 +1,10 @@
+{% capture product_output %}{
+    collectionIds:[
+        {% for collection in product.collections %}
+            {{collection.id}}
+            {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}{% endcapture %}
+{% assign output_lines = product_output | newline_to_br | split: '<br />' %}
+Spurit.UpsellForProducts2.snippet.products['{{product.id}}'] = {% for line in output_lines %}{{ line | strip }}{% endfor %};

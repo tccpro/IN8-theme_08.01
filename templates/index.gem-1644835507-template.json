@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thoughtful bedrooms for modern living.",
+            "heading_size": "medium"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Trident",
+            "button_link_1": "shopify:\/\/products\/trident-black",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HomePage_Hero_2160x_6b3a0962-a534-492b-acaa-fd63ea8271c7.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "164145056970983bb8": {
+      "type": "rich-text",
+      "blocks": {
+        "16414505691031c948-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16414505691031c948-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing the perfect <a href=\"\/products\/the-bed\" title=\"The Bed\">platform bed frame<\/a>, designed for how you live. Shipped free to your door and assembled in minutes.<\/p>"
+          }
+        },
+        "16414505691031c948-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16414505691031c948-0",
+        "16414505691031c948-1",
+        "16414505691031c948-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
+      }
+    },
+    "1641450181a0c48d81": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641450181cfeadd93-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevated Design",
+            "heading_size": "h1"
+          }
+        },
+        "1641450181cfeadd93-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clean lines and subtle curves create a modern, minimalist foundation at the perfect height with lifestyle-enhancing details that upgrade any space.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1641450181cfeadd93-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See How",
+            "button_link": "shopify:\/\/products\/the-bed"
+          }
+        },
+        "0a22f783-4d66-4a28-be1a-f9e12ab62bcb": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "See how",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "1641450181cfeadd93-0",
+        "1641450181cfeadd93-1",
+        "1641450181cfeadd93-2",
+        "0a22f783-4d66-4a28-be1a-f9e12ab62bcb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HomePage_ElevatedDesign_1_3024x_6f09c9cd-59ae-481d-bbbe-135147b27f60.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "164144999541cba564": {
+      "type": "image-with-text",
+      "blocks": {
+        "16414499956fb40553-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality  Craftsmanship",
+            "heading_size": "h1"
+          }
+        },
+        "16414499956fb40553-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Small-batch production, <a href=\"https:\/\/www.thuma.co\/pages\/about\" title=\"About\">Japanese joinery<\/a>, and upcycled, eco-friendly materials create a bed built to last and move. Each piece is inherently unique, featuring the natural imperfections of handcrafted, repurposed wood.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16414499956fb40553-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "16414499956fb40553-0",
+        "16414499956fb40553-1",
+        "16414499956fb40553-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HomePage_QualityCraftsmanship_062321_1512x_fefcc6b2-5beb-49c9-8ce6-4d73f252a165.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "16414498338bd5b68f": {
+      "type": "image-with-text",
+      "blocks": {
+        "164144983368e57051-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modern  Convenience",
+            "heading_size": "h1"
+          }
+        },
+        "164144983368e57051-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No more wasted weekends in warehouse mazes or WFH days waiting for delivery vans. Free shipping and simple assembly makes moving painless.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164144983368e57051-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See how",
+            "button_link": "shopify:\/\/products\/the-bed"
+          }
+        }
+      },
+      "block_order": [
+        "164144983368e57051-0",
+        "164144983368e57051-1",
+        "164144983368e57051-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ModernConvenience_2160x_d3816c77-253a-40ab-b5bc-1aa592e3fcd0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "We create lifestyle-enhancing pieces for the bedroom.",
+            "text": "",
+            "link_label": "Learn more",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "We started with the foundation. A thoughtfully designed platform bed.",
+            "text": "",
+            "link_label": "Get on the bed",
+            "link": "shopify:\/\/products\/the-bed"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "164144942860d652de": {
+      "type": "rich-text",
+      "blocks": {
+        "1641449428a196b9d1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"Top 10 Gifts for the Bedroom\"",
+            "heading_size": "h1"
+          }
+        },
+        "1641449428a196b9d1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wired<\/p>"
+          }
+        },
+        "512560d7-a70b-4056-bf4c-e605f314a8fb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Featured Press",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1641449428a196b9d1-0",
+        "1641449428a196b9d1-1",
+        "512560d7-a70b-4056-bf4c-e605f314a8fb"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "1641449308b1647083": {
+      "type": "newsletter",
+      "blocks": {
+        "164144930897445ccd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in the know."
+          }
+        },
+        "164144930897445ccd-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>News, product releases, & more.<\/p>"
+          }
+        },
+        "164144930897445ccd-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "164144930897445ccd-0",
+        "164144930897445ccd-1",
+        "164144930897445ccd-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "164145056970983bb8",
+    "1641450181a0c48d81",
+    "164144999541cba564",
+    "16414498338bd5b68f",
+    "multi_column",
+    "164144942860d652de",
+    "1641449308b1647083"
+  ]
+}

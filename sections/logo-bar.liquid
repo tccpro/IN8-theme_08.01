@@ -1,0 +1,176 @@
+{% comment %}
+** Logo list - dynamic **
+- Draggable section
+- Uses blocks
+{% endcomment %}
+
+{%- assign id = section.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign title = section.settings.title | escape -%}
+{%- assign blocks = section.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+
+{%- style -%}
+  #section--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    background-color:{{section.settings.background_color}};
+  }
+
+  @media screen and (min-width: 750px) {
+    #section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<section id="section--{{ section.id }}" class="section {{ css_class }}">
+
+  {% if title != blank %}
+    <h2 class="h1 center __logo_head_font">{{ title }}</h2>
+  {% endif %}
+
+  {% if blocks.size > 0 %}
+    <div class="logo-bar">
+      {% for block in blocks %}
+        {% comment %} Content settings {% endcomment %}
+        {%- assign image = block.settings.image -%}
+        {%- assign link = block.settings.link -%}
+        {% comment %} End content settings {% endcomment %}
+
+        <div id="block--{{ block.id }}" class="logo-bar__item" {{ block.shopify_attributes }}>
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}" class="logo-bar__link">
+          {% endif %}
+
+          {%- if block.settings.image != blank -%}
+            {%- assign image_size = block.settings.image_width | append: 'x' -%}
+            <img
+              srcset= "{{ block.settings.image | img_url: image_size }}, {{ block.settings.image | img_url: image_size, scale: 2 }} 2x"
+              src="{{ block.settings.image | img_url: '400x' }}"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+            >
+            <style>
+              #block--{{ block.id }} img {
+                max-width: 100%;
+                width:{{ block.settings.image_width }}px;
+              }
+            </style>
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+          {% endif %}
+
+          {% if block.settings.link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "Logo list",
+    "class": "shopify-section--logo-list",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Logo list"
+      },
+      {
+        "type": "header",
+        "content": "Advanced"
+      },
+      {
+        "type": "paragraph",
+        "content": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360022329373)"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo_image",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "400 x 300px recommended"
+          },
+          {
+            "type": "range",
+            "id": "image_width",
+            "min": 50,
+            "max": 250,
+            "step": 5,
+            "unit": "px",
+            "label": "Image width",
+            "default": 100
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo list",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

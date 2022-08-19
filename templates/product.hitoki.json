@@ -1,0 +1,1026 @@
+{
+  "sections": {
+    "164783499968e9eb7c": {
+      "type": "product-buy",
+      "settings": {
+        "top_space_size": 0,
+        "bottom_space_size": 0,
+        "title": "{{ section.settings.product.title }}",
+        "button_text": "Buy",
+        "button_style": "primary",
+        "box_top_space": 15,
+        "box_bottom_space": 15,
+        "title_font_size": 24,
+        "button_font_size": 14,
+        "sticky_position": "top",
+        "enable_sticky": true,
+        "enable_box_shadow": true,
+        "enable_max_width": true,
+        "product": "{{ product }}"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "5414427e-e261-4714-ae20-58620277791b": {
+          "type": "text",
+          "settings": {
+            "text": "Or 4 interest-free payments of $100 with Sezzle.",
+            "text_style": "uppercase"
+          }
+        },
+        "ec9f58e2-5ba8-47a4-8610-679b96ee5f45": {
+          "type": "text",
+          "settings": {
+            "text": "Simple text section that explains the product in one sentence.<br><br>",
+            "text_style": "subtitle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "a2f99941-3352-4893-a966-28ae22a48e66": {
+          "type": "text",
+          "settings": {
+            "text": "<center>Get it by Fri, Mar 25 with FREE Shipping<\/center><br>",
+            "text_style": "body"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free Shipping",
+            "icon": "truck",
+            "content": "<p>Enjoy free shipping on all orders over $99.<\/p>",
+            "page": ""
+          }
+        },
+        "514e2155-c0a3-4737-ac7a-12645498d722": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "1-Year Warranty Included",
+            "icon": "check_mark",
+            "content": "<p>All purchases of the Trident come with a 1-year warranty. <a href=\"\/pages\/qr-code-scan\" title=\"QR Code Scan\">View warranty details<\/a>. <\/p><p>We also offer an extended 3-year warranty. <a href=\"\/pages\/contact\" title=\"Contact\">Register for a 3 year warranty.<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Pay Over Time",
+            "icon": "price_tag",
+            "content": "<p>Check out with Sezzle and split your entire order into 4 interest-﻿free payments over 6 weeks.<\/p>",
+            "page": ""
+          }
+        },
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Inside The Box",
+            "icon": "box",
+            "content": "<p>1x Trident<br\/>1x USB-C charging cable<br\/>1x High output adaptor<br\/>1x Loading chamber<br\/>1x Silicone hookah hose<br\/>1x Hose connecter<br\/>1x Metal compressor<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "5414427e-e261-4714-ae20-58620277791b",
+        "ec9f58e2-5ba8-47a4-8610-679b96ee5f45",
+        "buy_buttons",
+        "a2f99941-3352-4893-a966-28ae22a48e66",
+        "vendor",
+        "description",
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5",
+        "variant_picker",
+        "quantity_selector",
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a",
+        "514e2155-c0a3-4737-ac7a-12645498d722",
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2",
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 44,
+        "padding_bottom": 60
+      }
+    },
+    "1648843361d6d7b3ba": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "text_color": "white",
+        "content_heading": "",
+        "content_sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "description": "",
+        "background_color": "#050000",
+        "video_display_mode": "cover",
+        "desktop_height": "550px",
+        "mobile_height": "450px",
+        "full_width": true,
+        "color_scheme": "inverse",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0597\/1194\/6949\/files\/Hitoki_Trident_Black.mp4?v=1648872485",
+        "autoplay": true,
+        "autoloop": true,
+        "mute_video": true,
+        "show_controls": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "164766734634d06567": {
+      "type": "slideshow_text",
+      "blocks": {
+        "1647667346d6562e06-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Instant clean laser combustion.",
+            "heading_size": "medium",
+            "subheading": "Free from chemical butane contaminates which allows for more flavorful and healthier sessions!",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1647667346d6562e06-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "A breath of fresh air.",
+            "heading_size": "medium",
+            "subheading": "The carb button allows fresh cool air in for an even better flavorful experience and also makes it easier to clear your smoke. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "45f066dd-9ab6-4897-977e-1166e63864b7": {
+          "type": "slide",
+          "settings": {
+            "heading": "Single charge last for over 280 ignitions.",
+            "heading_size": "medium",
+            "subheading": "Lose the lighter. The  Trident will be ready when you are.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "35e78ce2-fa77-4670-9226-557a8305aae2": {
+          "type": "slide",
+          "settings": {
+            "heading": "100% Windproof Guaranteed",
+            "heading_size": "medium",
+            "subheading": "About the shield",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "0d1adb79-618b-49bb-ba9e-b8b4d55b83a6": {
+          "type": "slide",
+          "settings": {
+            "heading": "Elegant and sophisticated",
+            "heading_size": "medium",
+            "subheading": "Minimalist design makes it easy to fit in and stand out all at the same time in any setting.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1647667346d6562e06-0",
+        "1647667346d6562e06-1",
+        "45f066dd-9ab6-4897-977e-1166e63864b7",
+        "35e78ce2-fa77-4670-9226-557a8305aae2",
+        "0d1adb79-618b-49bb-ba9e-b8b4d55b83a6"
+      ],
+      "settings": {
+        "desktop_top_space_size": 0,
+        "desktop_bottom_space_size": 0,
+        "mobile_top_space_size": 35,
+        "mobile_bottom_space_size": 35,
+        "layout": "full_bleed",
+        "slide_height": "extra-small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "accessibility_info": "More about the Trident"
+      }
+    },
+    "164884367474261975": {
+      "type": "slideshow",
+      "blocks": {
+        "164884367484ee1a3b-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22rz.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "164884367484ee1a3b-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TridentLifesstyle.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164884367484ee1a3b-0",
+        "164884367484ee1a3b-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1648843786d46894a6": {
+      "type": "rich-text",
+      "blocks": {
+        "1648843786db228339-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready in 3 easy steps. *1",
+            "heading_size": "h2"
+          }
+        },
+        "1648843786db228339-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1648843786db228339-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1648843786db228339-0",
+        "1648843786db228339-1",
+        "1648843786db228339-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "1645946405d2f23caf": {
+      "type": "slideshow",
+      "blocks": {
+        "1645946405282c4db9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Load.png",
+            "heading": "Load it ",
+            "heading_size": "medium",
+            "subheading": "Insert loading chamber ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1645946405282c4db9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Lock.png",
+            "heading": "Lock it  *1",
+            "heading_size": "medium",
+            "subheading": "Engage interlocks ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2853323f-3b5c-4eb3-8efd-300bb8da7343": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Light.png",
+            "heading": "Light It",
+            "heading_size": "medium",
+            "subheading": "Fire the laser ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "8e3e6d81-b05f-4fa2-8d2d-b93500e98a3b": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Lock_2_6f8412e4-3573-4c07-9ca5-a02e61302b3f.png",
+            "heading": "Lock",
+            "heading_size": "medium",
+            "subheading": "Need to move product to the left. Also cuts off part of the product.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e77a42f7-744c-42a9-9387-09d3c390ebf8": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Light_2_ab624e3c-1cd1-438d-8abf-21a83a7ee78b.png",
+            "heading": "Light",
+            "heading_size": "medium",
+            "subheading": "Image quality on logo a bit blurry. Slideshow image size 1600 x 1050px",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1645946405282c4db9-0",
+        "1645946405282c4db9-1",
+        "2853323f-3b5c-4eb3-8efd-300bb8da7343",
+        "8e3e6d81-b05f-4fa2-8d2d-b93500e98a3b",
+        "e77a42f7-744c-42a9-9387-09d3c390ebf8"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "numbers",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "16477202352b28162b": {
+      "type": "featured-image",
+      "disabled": true,
+      "settings": {
+        "image_height": "xs",
+        "mobile_height": "450px",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "enable_parallax": false,
+        "image": "shopify:\/\/shop_images\/img-placeholder.gif",
+        "img_position": "center",
+        "overlay_opacity": 5,
+        "text_color": "black",
+        "heading": "Animated gif of water filter and bubbles",
+        "sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "top_space_size": 60,
+        "bottom_space_size": 60
+      }
+    },
+    "1648941447ad85b65f": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "text_color": "white",
+        "content_heading": "",
+        "content_sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "description": "",
+        "background_color": "#ffffff",
+        "video_display_mode": "contain",
+        "desktop_height": "450px",
+        "mobile_height": "450px",
+        "full_width": false,
+        "color_scheme": "inverse",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0597\/1194\/6949\/files\/Smoke_Loop_NO_AUDIO.mp4?v=1648941517",
+        "autoplay": true,
+        "autoloop": true,
+        "mute_video": true,
+        "show_controls": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "164894270176a49ad1": {
+      "type": "rich-text",
+      "blocks": {
+        "1648942701d2e8740f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elegance",
+            "heading_size": "h1"
+          }
+        },
+        "1648942701d2e8740f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Trident’s elegant design features a one button function with LED feedback that makes it user friendly offering 3 power levels based on the product density.<\/p>"
+          }
+        },
+        "1648942701d2e8740f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1648942701d2e8740f-0",
+        "1648942701d2e8740f-1",
+        "1648942701d2e8740f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    },
+    "1647720535f953d2ad": {
+      "type": "slideshow",
+      "blocks": {
+        "16477205350d99693e-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Power.png",
+            "heading": "Push Button Ignition",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16477205350d99693e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trident_Black_Charge.jpg",
+            "heading": "Elegance",
+            "heading_size": "medium",
+            "subheading": "The Trident’s elegant design features a one button function with LED feedback that makes it user friendly offering 3 power levels based on the product density.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "545e6a95-c1df-4567-b1de-b6824d1aa03c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hitoki_Black_Charge.png",
+            "heading": "Power",
+            "heading_size": "medium",
+            "subheading": "The Hitoki will last for over 280 ignitions on a single charge using USB-C fast charge, charging daily or weekly is no longer needed.   ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16477205350d99693e-0",
+        "16477205350d99693e-1",
+        "545e6a95-c1df-4567-b1de-b6824d1aa03c"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1647317771137aa524": {
+      "type": "properties-bar",
+      "blocks": {
+        "6830b175-3330-4c0c-a50b-824f68506cac": {
+          "type": "progressbar",
+          "settings": {
+            "heading": "Flavor",
+            "percentage": 100
+          }
+        },
+        "c1bc140f-983f-4718-ab4d-fbbddc9bd007": {
+          "type": "progressbar",
+          "settings": {
+            "heading": "Dose size",
+            "percentage": 80
+          }
+        },
+        "906708e0-28aa-4b69-9440-97ed018a6fd0": {
+          "type": "progressbar",
+          "disabled": true,
+          "settings": {
+            "heading": "Efficiency",
+            "percentage": 100
+          }
+        },
+        "287968c0-429d-4e11-83de-68950fc81c3e": {
+          "type": "progressbar",
+          "settings": {
+            "heading": "On-the-go",
+            "percentage": 85
+          }
+        },
+        "02f39747-79c2-4aeb-946a-103fe76c8ebb": {
+          "type": "progressbar",
+          "settings": {
+            "heading": "Battery life",
+            "percentage": 100
+          }
+        },
+        "59885c16-082b-404e-b242-14828c275fff": {
+          "type": "progressbar",
+          "settings": {
+            "heading": "User control",
+            "percentage": 95
+          }
+        }
+      },
+      "block_order": [
+        "6830b175-3330-4c0c-a50b-824f68506cac",
+        "c1bc140f-983f-4718-ab4d-fbbddc9bd007",
+        "906708e0-28aa-4b69-9440-97ed018a6fd0",
+        "287968c0-429d-4e11-83de-68950fc81c3e",
+        "02f39747-79c2-4aeb-946a-103fe76c8ebb",
+        "59885c16-082b-404e-b242-14828c275fff"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "heading": "DEVICE CAPABILITIES",
+        "padding_vertical": 20,
+        "padding_horizontal": 30,
+        "bg_color": "#fdfdfd",
+        "text_color": "#232324",
+        "progressbar_color": "#0315ef"
+      }
+    },
+    "1645947483dffbba67": {
+      "type": "multicolumn",
+      "blocks": {
+        "16459474829c0c4d06-0": {
+          "type": "column",
+          "settings": {
+            "title": "FULL SPECS",
+            "text": "<p>Aircraft grade aluminum exterior<br\/>Carb button<br\/>Removable ceramic loading chamber<br\/>Integrated water filter<br\/>Cleanest smoking experience<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16459474829c0c4d06-1": {
+          "type": "column",
+          "settings": {
+            "title": "LASER POWER",
+            "text": "<p>280+ uses per charge<br\/>Instant combustion<br\/>LED power level indicator<br\/>Fast charging USB-C<br\/>FDA standard interlocks<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16459474829c0c4d06-0",
+        "16459474829c0c4d06-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1645948319a881d5c7": {
+      "type": "collage",
+      "blocks": {
+        "5a280d45-fb08-4010-9c21-b7552ef38246": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/45.png",
+            "image_padding": false
+          }
+        },
+        "e2d5ac47-1b88-4268-8e36-825558ed4a38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle1.png",
+            "image_padding": false
+          }
+        },
+        "98e790a1-95f8-4251-8d81-fe5e2a6135c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optimized-25.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "5a280d45-fb08-4010-9c21-b7552ef38246",
+        "e2d5ac47-1b88-4268-8e36-825558ed4a38",
+        "98e790a1-95f8-4251-8d81-fe5e2a6135c3"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1645947729593f8e62": {
+      "type": "apps",
+      "blocks": {
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16459481815fc42209": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "TRIDENT ACCESSORIES",
+        "collection": "hitoki-accessories",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "164594902069aa5dc9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "16459490207e540225-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I power the Trident on\/off?",
+            "icon": "question_mark",
+            "row_content": "<p>Press the power button located at the top of the device.<\/p>",
+            "page": ""
+          }
+        },
+        "16459490207e540225-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long can my Hitoki perform on a full charge?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16459490207e540225-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much ground material can fit inside the heating chamber?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16459490207e540225-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can concentrates be used in the Trident?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16459490207e540225-0",
+        "16459490207e540225-1",
+        "16459490207e540225-3",
+        "16459490207e540225-2"
+      ],
+      "settings": {
+        "caption": "Trident Laser Vaporizer",
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "title_margin_bottom": 10,
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1646910232dd95a709": {
+      "type": "rich-text",
+      "blocks": {
+        "1646910232af23596f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1646910232af23596f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/qr-code-scan\" title=\"QR Code Scan\">Download User Manual<\/a><\/p>"
+          }
+        },
+        "1646910232af23596f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1646910232af23596f-0",
+        "1646910232af23596f-1",
+        "1646910232af23596f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "SIMILAR RECOMMENDATIONS",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "16459483359f6cafb6": {
+      "type": "image-banner",
+      "blocks": {
+        "1645948335f7b7be38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHOOSE TO GO HIGH",
+            "heading_size": "medium"
+          }
+        },
+        "1645948335f7b7be38-1": {
+          "type": "text",
+          "settings": {
+            "text": "The cleanest and most flavorful experience. No hemp wick or butane fumes. Did we also mention that it’s windproof? ",
+            "text_style": "subtitle"
+          }
+        },
+        "1645948335f7b7be38-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1645948335f7b7be38-0",
+        "1645948335f7b7be38-1",
+        "1645948335f7b7be38-2"
+      ],
+      "settings": {
+        "top_space_size": 60,
+        "bottom_space_size": 0,
+        "image": "shopify:\/\/shop_images\/Hitoki_Sunset-11.png",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "164783499968e9eb7c",
+    "main",
+    "1648843361d6d7b3ba",
+    "164766734634d06567",
+    "164884367474261975",
+    "1648843786d46894a6",
+    "1645946405d2f23caf",
+    "16477202352b28162b",
+    "1648941447ad85b65f",
+    "164894270176a49ad1",
+    "1647720535f953d2ad",
+    "1647317771137aa524",
+    "1645947483dffbba67",
+    "1645948319a881d5c7",
+    "1645947729593f8e62",
+    "16459481815fc42209",
+    "164594902069aa5dc9",
+    "1646910232dd95a709",
+    "product-recommendations",
+    "16459483359f6cafb6"
+  ]
+}

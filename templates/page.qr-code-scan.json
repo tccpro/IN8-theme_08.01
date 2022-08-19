@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "1642224397e6e23f7c": {
+      "type": "featured-product",
+      "blocks": {
+        "16422243978a77025a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16422243978a77025a-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "16422243978a77025a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16422243978a77025a-3": {
+          "type": "price",
+          "settings": {}
+        },
+        "16422243978a77025a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16422243978a77025a-5": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "16422243978a77025a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16422243978a77025a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16422243978a77025a-0",
+        "16422243978a77025a-1",
+        "16422243978a77025a-2",
+        "16422243978a77025a-3",
+        "16422243978a77025a-4",
+        "16422243978a77025a-5",
+        "16422243978a77025a-6",
+        "16422243978a77025a-7"
+      ],
+      "settings": {
+        "product": "trident-black",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "164222436513e1b56b": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "164222436553adbec8-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "164222436553adbec8-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "164222436553adbec8-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "164222436553adbec8-0",
+        "164222436553adbec8-1",
+        "164222436553adbec8-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642224397e6e23f7c",
+    "164222436513e1b56b"
+  ]
+}

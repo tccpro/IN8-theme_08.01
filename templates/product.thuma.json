@@ -1,0 +1,512 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "7f6f9ed4-2436-4ce0-afd3-a65a5c03385f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "| 4.9 | 8387 Reviews"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "d30ee65f-77d2-4a2f-9800-4d29bfb1ef7f": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "gbb"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "Aferpay financing available",
+            "text_style": "uppercase"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "16704bce-05be-4417-a86c-c7adc07facef": {
+          "type": "text",
+          "settings": {
+            "text": "Ships in 2-5 business days. Limited beds available. Mattress not included.",
+            "text_style": "uppercase"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "7f6f9ed4-2436-4ce0-afd3-a65a5c03385f",
+        "price",
+        "variant_picker",
+        "description",
+        "quantity_selector",
+        "d30ee65f-77d2-4a2f-9800-4d29bfb1ef7f",
+        "vendor",
+        "buy_buttons",
+        "16704bce-05be-4417-a86c-c7adc07facef",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "164145540137d93e8d": {
+      "type": "multicolumn",
+      "blocks": {
+        "16414554018dea06fe-0": {
+          "type": "column",
+          "settings": {
+            "title": "Materials & Dimensions",
+            "text": "<p>Each bed is inherently unique, featuring natural imperfections and distinctive wood grains and knots indicative of handcrafted, repurposed wood. Subtle color variances are to be expected and celebrated. No MDF or veneers. Bottom of legs include pre-applied, cork-padded bottoms for floor protection and extra cushion<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16414554018dea06fe-1": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping & Returns",
+            "text": "<p>The Bed ships in three boxes, designed to fit upstairs and through hallways. For box dimensions, please refer to our FAQs page. The Bed ships in 1-5 business days and generally arrives 1-5 business days after shipment, not including weekends and federal holidays. We offer a 100 night risk free trial for your first purchase of The Bed.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16414554018dea06fe-2": {
+          "type": "column",
+          "settings": {
+            "title": "GREENGUARD Gold Certified",
+            "text": "<p>At Thuma, we’re mindful in the making of each product, considering both you and the environment every step of the way. In addition to sustainable materials designed for longevity, ethical manufacturing, and recycled packaging, The Bed is also GREENGUARD Gold Certified.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16414554018dea06fe-0",
+        "16414554018dea06fe-1",
+        "16414554018dea06fe-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1641455713986714e4": {
+      "type": "collage",
+      "blocks": {
+        "164145571383ea35de-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/ThumaPDPGrid5_FarRight_062321_2808x_2.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "d25cdba1-8dc8-491b-a404-da7cc1fb2dff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThumaPDPGrid3_BottomLeft_2808x_5798a920-b0c8-4f49-b399-cb749bac1aa9.jpg",
+            "image_padding": false
+          }
+        },
+        "ea6f8bce-a4d5-4031-aa39-695cad8c39a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThumaPDPGrid3_BottomLeft_2808x_2.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "164145571383ea35de-0",
+        "d25cdba1-8dc8-491b-a404-da7cc1fb2dff",
+        "ea6f8bce-a4d5-4031-aa39-695cad8c39a5"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16414557256aad164b": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641455725c19faa91-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The PillowBoard",
+            "heading_size": "h1"
+          }
+        },
+        "1641455725c19faa91-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supportive foam backing creates a comfortable pro-lounge environment. Interchangeable & <a href=\"https:\/\/www.thuma.co\/products\/cover\" title=\"PillowBoard Cover\">washable linen-weave cover<\/a> keeps things fresh.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1641455725c19faa91-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641455725c19faa91-0",
+        "1641455725c19faa91-1",
+        "1641455725c19faa91-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBedPDP_ThePillowBoard_1728x_fbe4b699-c762-4d5b-9dad-adec53c35796.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "16414559743ffabbe3": {
+      "type": "image-with-text",
+      "blocks": {
+        "164145597487191872-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Japanese Joinery",
+            "heading_size": "h1"
+          }
+        },
+        "164145597487191872-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The timeless Japanese craftsmen technique creates a unique bed that’s naturally noise-minimizing and easy to put together, while eliminating the need for excess metal hardware.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164145597487191872-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164145597487191872-0",
+        "164145597487191872-1",
+        "164145597487191872-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBedPDP_Joinery_1728x_4b207fed-044d-4319-9a2e-20ffc1acd9c8.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "16414561087ca4c818": {
+      "type": "image-with-text",
+      "blocks": {
+        "164145610804ad5022-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Space Creating",
+            "heading_size": "h1"
+          }
+        },
+        "164145610804ad5022-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Low-profile frame opens up any room. 9” clearance makes decluttering simple, creating space for suitcases, winter coats, shoes, and whatever else. + rounded corners to protect shins.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164145610804ad5022-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164145610804ad5022-0",
+        "164145610804ad5022-1",
+        "164145610804ad5022-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBedPDP_SpaceCreating_1728x_7f09bd8e-838a-45a5-b9b2-0bc46815bc24.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "1641456166a164e7ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "16414561668ada40dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Super Supportive",
+            "heading_size": "h1"
+          }
+        },
+        "16414561668ada40dd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Strong, sturdy, and quiet foundation strenuously tested and proven to withstand even the most rambunctious of Bed Time activities. Slats spaced to ensure optimum mattress support and breathability.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16414561668ada40dd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16414561668ada40dd-0",
+        "16414561668ada40dd-1",
+        "16414561668ada40dd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBedPDP_SuperSupportive_1728x_38a8bed2-df65-47e1-b473-9528acbc30e7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "164145629233459a4f": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/VideoSetup.jpg",
+        "description": "Simple Set-Up. No Tools.",
+        "full_width": true,
+        "video_url": ""
+      }
+    },
+    "1641456490aed45934": {
+      "type": "rich-text",
+      "blocks": {
+        "1641456490a6a82a97-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your bran",
+            "heading_size": "h1"
+          }
+        },
+        "1641456490a6a82a97-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ships free to your door in three boxes, designed to fit upstairs and through hallways. Assembles and disassembles in five-ish minutes. No team or tools needed.<\/p>"
+          }
+        },
+        "1641456490a6a82a97-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1641456490a6a82a97-0",
+        "1641456490a6a82a97-1",
+        "1641456490a6a82a97-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16414592936f788d5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16414592939c08f753-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How We Do It",
+            "heading_size": "h1"
+          }
+        },
+        "16414592939c08f753-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We set out to solve the biggest problems in the bedroom by designing beautiful, functional pieces for how we live today. To make them, we seek out the world’s most skilled craftsmen, identify eco-friendly resources, and cut out all unnecessary steps to deliver luxury directly to you for much less.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16414592939c08f753-0",
+        "16414592939c08f753-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/compare.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "1641456524e766a096": {
+      "type": "apps",
+      "blocks": {
+        "d42add3c-bb3f-481d-8f75-5cd4cd8b7361": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "d42add3c-bb3f-481d-8f75-5cd4cd8b7361"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1641456574e4f09705": {
+      "type": "rich-text",
+      "blocks": {
+        "e987f43d-e004-4bea-a40c-e545eab4d209": {
+          "type": "button",
+          "settings": {
+            "button_label": "Featured Press",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "1641456574b7085267-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "“The Bed by Thuma merges form and function for the perfect minimalist foundation.”",
+            "heading_size": "h1"
+          }
+        },
+        "1641456574b7085267-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Architectural Digest<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e987f43d-e004-4bea-a40c-e545eab4d209",
+        "1641456574b7085267-0",
+        "1641456574b7085267-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164145540137d93e8d",
+    "1641455713986714e4",
+    "16414557256aad164b",
+    "16414559743ffabbe3",
+    "16414561087ca4c818",
+    "1641456166a164e7ed",
+    "164145629233459a4f",
+    "1641456490aed45934",
+    "16414592936f788d5e",
+    "1641456524e766a096",
+    "1641456574e4f09705",
+    "product-recommendations"
+  ]
+}

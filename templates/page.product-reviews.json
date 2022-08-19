@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "1658193726e190635d": {
+      "type": "product-review",
+      "settings": {}
+    },
+    "1645947729593f8e62": {
+      "type": "apps",
+      "blocks": {
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1658193726e190635d",
+    "1645947729593f8e62"
+  ]
+}

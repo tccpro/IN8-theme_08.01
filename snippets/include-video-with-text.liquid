@@ -1,0 +1,148 @@
+{% comment %}
+** Video - dynamic **
+- Draggable section
+{% endcomment %}
+
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign id = object.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign iframe_video = object.settings.iframe_video -%}
+{%- assign back_image = object.settings.background_image -%}
+{%- assign fore_image = object.settings.foreground_image -%}
+{%- assign preheading = object.settings.preheading -%}
+{%- assign heading = object.settings.heading -%}
+{%- assign subheading = object.settings.subheading -%}
+{%- assign button_label = object.settings.button_label -%}
+{%- assign button_link = object.settings.button_link -%}
+{%- assign html5_video = object.settings.html5_video -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Is the color set to transparent? {% endcomment %}
+{%- assign mobile_text_alpha = object.settings.mobile_text_color | color_extract: 'alpha' -%}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = object.settings.css_class -%}
+{%- assign custom_css = object.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {% render 'css-loop',
+          css: custom_css,
+          id: id
+  %}
+  #section--{{ object.id }} .action_button {
+    color:{{ object.settings.play_button_label_color }}
+  }
+  #section--{{ object.id }} .action_button svg rect {
+    fill:{{ object.settings.play_button_bg_color }};
+  }
+  #section--{{ object.id }} .action_button svg path {
+    fill:{{ object.settings.play_button_arrow_color }};
+  }
+  @media only screen and (max-width: 480px) {
+    #shopify-section-{{ object.id }} .pretext,
+    #shopify-section-{{ object.id }} .headline,
+    #shopify-section-{{ object.id }} .subtitle,
+    .block__{{ object.id }} .pretext,
+    .block__{{ object.id }} .headline,
+    .block__{{ object.id }} .subtitle {
+      color: {% if mobile_text_alpha != 0 %}{{ object.settings.mobile_text_color }}{% endif %};
+    }
+  }
+{% endstyle %}
+
+<div id="section--{{ object.id }}" class="video-container">
+  <div class="video-section full-width--{{ object.settings.wide_display }}">
+    <div class="video-wrapper video-controls-enabled--{{ object.settings.show_controls }} darken-video--{{ object.settings.video_dark_overlay }}" id="video-{{ object.id }}"
+          data-autoplay="{{ object.settings.autoplay }}"
+          data-autoloop="{{ object.settings.autoloop }}"
+          data-mute-video="{{ object.settings.mute_video }}"
+          data-video-src="{{ iframe_video.id }}"
+          data-aspect-ratio="{{ object.settings.aspect_ratio }}"
+          data-poster-image-uploaded="{% if image != blank %}true{% else %}false{% endif%}">
+      <div class="video__overlay"></div>
+        {% comment %} Add div for placeholder / poster image {% endcomment %}
+        {% if back_image != blank %}
+          <div class="video-wrapper__image">
+            {% render 'image-element',
+                    image: back_image,
+                    alt: back_image.alt,
+                    stretch_width: true
+            %}
+            {% if fore_image != blank %}
+            {% render 'image-element',
+                    image: fore_image,
+                    alt: fore_image.alt,
+                    stretch_width: true
+            %}
+            {% endif %}
+          </div>
+        {% else %}
+          {% unless html5_video != blank or iframe_video != blank %}
+            <div class="video-wrapper__image">
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--video' }}
+            </div>
+          {% endunless %}
+        {% endif %}
+
+        {% comment %} Checks there is an iframe video (YouTube or Vimeo) {% endcomment %}
+        {% if iframe_video != blank %}
+          {% if iframe_video.type == 'vimeo' %}
+            <div class="plyr__video-embed" id="video-{{ object.id }}" data-video-element data-external-video>
+              <iframe src="https://player.vimeo.com/video/{{ iframe_video.id }}?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+            </div>
+          {% elsif iframe_video.type == 'youtube' %}
+            <div class="plyr__video-embed" id="video-{{ object.id }}" data-video-element data-external-video>
+              <iframe src="https://www.youtube.com/embed/{{ iframe_video.id }}?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" allowfullscreen allowtransparency allow="autoplay"></iframe>
+            </div>
+          {% endif %}
+          {% comment %} Checks there is an HTML5 video {% endcomment %}
+        {% elsif html5_video != blank %}
+          <video class="video-{{ object.id }}" data-video-element data-html5-video>
+            <source src="{{ html5_video }}">
+          </video>
+        {% endif %}
+
+        <div class="video__text-container display-text-over-video--{{ object.settings.display_text_over_video }} text-below-image--{{ object.settings.mobile_text_below_image }}" data-video-text-container>
+          <div class="video__text">
+            <div class="text-outer-wrapper caption js-caption position-{{ object.settings.text_position }} caption--below-{{ object.settings.mobile_text_below_image }}">
+              <div class="video__text-wrapper caption-content align-{{ object.settings.text_align }} caption-background-{{ object.settings.caption_background }} caption-transparency-{{ object.settings.caption_background_transparency }}">
+                {% if preheading != blank %}
+                  <div class="pretext" data-video-text>
+                    {{ preheading }}
+                  </div>
+                {% endif %}
+
+                {% if heading != blank %}
+                  <h1 class="headline" data-video-text>{{ heading | escape }}</h1>
+                {% endif %}
+
+                {% if subheading != blank %}
+                  <div class="subtitle" data-video-text>
+                    {{ subheading }}
+                  </div>
+                {% endif %}
+
+                {% if button_label != blank %}
+                  <a {% if button_link != blank %}href="{{ button_link }}"{% else %}data-play-button{% endif %} class="action_button first_button">
+                    <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.636719" y="0.869141" width="64" height="64" rx="32" fill="#7D241E"/>
+                      <path d="M40.5014 32.7694L28.7695 39.5212V26.0176L40.5014 32.7694Z" fill="white"/>
+                    </svg>
+                    {{ button_label }}
+                  </a>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

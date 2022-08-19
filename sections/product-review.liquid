@@ -1,0 +1,30 @@
+{% stylesheet %}
+    h3 {
+        width: 100%;
+        
+    }
+{% endstylesheet %}
+
+{% for prod in collections.all.products %}
+    {% if prod.id == 7111129137349 %}
+        {% assign product = prod %}
+    {% endif %}
+{% endfor %}
+
+<h3>Product title : {{product.title}}</h3>
+
+{% schema %} 
+{
+  "name": "Product Reviews",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    
+  ],
+  "presets": [
+    {
+      "name": "Product Reviews"
+    }
+  ]
+}
+{% endschema %}

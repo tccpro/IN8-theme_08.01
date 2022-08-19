@@ -1,0 +1,204 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#f8fafb",
+    "colors_accent_1": "#151515",
+    "colors_accent_2": "#262626",
+    "colors_text": "#262626",
+    "colors_outline_button_labels": "#1c1a1a",
+    "colors_background_1": "#f8fafb",
+    "gradient_background_1": "",
+    "colors_background_2": "#e1e1e1",
+    "gradient_background_2": "linear-gradient(180deg, rgba(21, 21, 21, 1), rgba(168, 255, 251, 1) 100%)",
+    "type_header_font": "sans-serif",
+    "type_body_font": "muli_n4",
+    "page_width": 1200,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "enable_scroll_snap": false,
+    "scroll_snap_min_height": "550",
+    "buttons_radius": 24,
+    "buttons_shadow_blur": 0,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_color_scheme": "background-2",
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "media_border_thickness": 0,
+    "sale_badge_color_scheme": "accent-1",
+    "accent_icons": "accent-1",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Hitoki-111556560712062",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/hitokilaser",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "predictive_search_enabled": true,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Hitoki_Logo-Black.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f8fafb",
+    "checkout_accent_color": "#197aff",
+    "checkout_button_color": "#197aff",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "d8ac1ffe-22ed-4672-acbd-e677e9a222fc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Spartan_Watches_Logo_0.0.1.png",
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
+          "9ae74819-dd8b-419a-a2db-5fd2893d5ddf": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Links",
+              "menu": "spartanwatches"
+            }
+          },
+          "menu": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Menu",
+              "menu": "info"
+            }
+          }
+        },
+        "block_order": [
+          "d8ac1ffe-22ed-4672-acbd-e677e9a222fc",
+          "9ae74819-dd8b-419a-a2db-5fd2893d5ddf",
+          "menu"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": false,
+          "newsletter_heading": "STAY UP TO DATE",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 40,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "d7926bf4-5443-4ec0-b15f-da57f4b3f07d": {
+            "type": "announcement",
+            "settings": {
+              "text": "Up to 50% OFF new clearance styles",
+              "color_scheme": "accent-1",
+              "link": "shopify:\/\/collections\/apple-watch"
+            }
+          },
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "FREE ground shipping on all orders over $75",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d7926bf4-5443-4ec0-b15f-da57f4b3f07d",
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "accent-2",
+          "logo": "shopify:\/\/shop_images\/Spartan_Watches_Logo_White.png",
+          "logo_width": 110,
+          "menu_display": "line",
+          "logo_position": "top-left",
+          "menu_position": "center",
+          "mobile_logo_position": "left",
+          "enable_header_one_row": true,
+          "menu": "spartanwatches",
+          "menu_type_desktop": "mega",
+          "show_line_separator": true,
+          "enable_transparent_header": false,
+          "enable_fixed_header": true,
+          "enable_product_fixed_header": false,
+          "margin_bottom": 0
+        }
+      }
+    },
+    "content_for_index": []
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {}
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {}
+        }
+      }
+    }
+  }
+}

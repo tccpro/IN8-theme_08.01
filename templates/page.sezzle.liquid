@@ -1,0 +1,494 @@
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap');
+
+	.sezzle-container {
+		text-align: center;
+		font-family: 'Comfortaa', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', cursive, sans-serif;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sezzle-container p {
+		font-weight: 300;
+		color: #272727;
+		font-size: 16px;
+		line-height: 1.47;
+	}
+
+	.sezzle-container .sezzle-logo {
+		margin: 80px auto;
+	}
+
+	.sezzle-container .sezzle-logo svg {
+		width: 250px;
+		height: auto;
+	}
+
+	.sezzle-container section .sezzle-hiw-pie-bg {
+		height: 151px;
+		width: 507px;
+		margin: 0 auto 40px;
+		border-radius: 23px;
+		background-color: #FFFFFF;
+		box-shadow: 0 2px 20px 4px rgba(0, 0, 0, 0.06);
+		position: relative;
+	}
+
+	.sezzle-payment-pie-graph {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: 15%;
+	}
+
+	.sezzle-container .sezzle-row {
+		box-sizing: border-box;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+		-ms-flex: 0 1 auto;
+		-webkit-box-flex: 0;
+		flex: 0 1 auto;
+		-ms-flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.sezzle-container section .breakdown-row {
+		text-align: center;
+		max-width: 390px;
+		min-width: 390px;
+		justify-content: space-between;
+		margin: auto 60px;
+		position: absolute;
+		top: 60%;
+	}
+
+	.sezzle-container section .breakdown-row .breakdown {
+		color: #382757;
+		font-size: 28px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+
+	.sezzle-container section .breakdown-row span {
+		color: #382757;
+		font-size: 18px;
+		line-height: 35px;
+		margin: 0;
+	}
+
+	.sezzle-container section {
+		max-width: 860px;
+	}
+
+	.sezzle-container h4 {
+		font-size: 18px;
+	}
+
+	.sezzle-container h2.sezzle-header-2 {
+		margin: 0 0 12px;
+		color: #382757;
+		font-family: Comfortaa;
+		font-size: 60px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	.sezzle-container p.sezzle-description {
+		margin: 0 auto 40px;
+		max-width: 600px;
+	}
+
+	.sezzle-container .sezzle-hr {
+		width: 78px;
+		height: 3px;
+		margin: 10px auto 40px;
+		background-color: #29D3A2;
+		border: 1px solid #29D3A2;
+		display: block;
+		border-radius: 63px;
+		opacity: 1;
+	}
+
+	.sezzle-container h3.sezzle-header-3,
+	h2.sezzle-header-3 {
+		margin: 20px 0 12px;
+		color: #382757;
+		font-family: Comfortaa;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 60px;
+		text-align: center;
+	}
+
+	.sezzle-container p.sezzle-note {
+		color: #382757;
+		font-family: Comfortaa;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-column {
+		width: 33.33%;
+		float: left;
+		margin-bottom: 40px;
+	}
+
+	.sezzle-container section {
+		margin: 0px 0px;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-hiw-bg {
+		height: 150px;
+		width: 150px;
+		background: #FCD7B6;
+		border-radius: 50%;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.sezzle-container .how-to-sezzle img.sezzle-hiw-image {
+		position: absolute;
+		margin: auto;
+		display: inherit;
+		bottom: 0
+	}
+
+	.sezzle-container .how-to-sezzle img.sezzle-hiw-sezzle-it {
+		min-width: 198px;
+		max-width: 198px;
+		left: -15%;
+		right: -15%;
+		top: 5%;
+		bottom: 0;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-column img.sezzle-hiw-checkout {
+		min-height: 145px;
+		max-height: 145px;
+		top: 25%;
+		left: -20%;
+		right: -20%;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-column img.sezzle-hiw-shop {
+		min-width: 175px;
+		max-width: 175px;
+		top: 20%;
+		left: 5%;
+		right: 0;
+		bottom: 0;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-column .sezzle-steps-header {
+		text-transform: uppercase;
+		font-size: 21px;
+		font-weight: bold;
+		letter-spacing: 2.04px;
+		line-height: 22px;
+		color: #D14507;
+		margin-top: 30px;
+	}
+
+	.sezzle-container .how-to-sezzle .sezzle-column .sezzle-steps-copy {
+		font-size: 16px;
+		width: 80%;
+		margin: auto;
+	}
+
+	/* clears the float */
+	.sezzle-container .how-to-sezzle:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.sezzle-container .sezzle-app {
+		flex: 1;
+		padding: 8px;
+	}
+
+	.sezzle-container .sezzle-app .sezzle-row {
+		justify-content: center;
+	}
+
+	.sezzle-container .sezzle-app .sezzle-row img {
+		flex: 1;
+		padding: 8px;
+		min-height: 60px;
+		max-height: 60px;
+		width: auto;
+	}
+
+	.sezzle-container section .subtitle-small {
+		color: #272727;
+		font-family: Comfortaa;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 52px;
+		text-align: center;
+	}
+
+	@media screen and (min-width: 1200px) {
+		.sezzle-container {
+			width: 1170px;
+		}
+	}
+
+	@media screen and (min-width: 992px) {
+		.sezzle-container {
+			width: 970px;
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		.sezzle-container {
+			width: 750px;
+		}
+	}
+
+	@media screen and (max-width: 786px) {
+		.sezzle-container .how-to-sezzle {
+			margin-top: 0px;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.sezzle-container .sezzle-logo {
+			margin: 0px auto;
+			margin-top: 30px;
+		}
+
+		.sezzle-container section .sezzle-hiw-pie-bg {
+			height: 97px;
+			width: 300px;
+			margin-bottom: 40px;
+		}
+
+		.sezzle-container section .sezzle-hiw-pie-bg .sezzle-payment-pie-graph {
+			width: 72%;
+			height: auto;
+		}
+
+		.sezzle-container section .breakdown-row {
+			min-width: 230px;
+			max-width: 230px;
+			margin: auto 39px;
+			top: 50%;
+		}
+
+		.sezzle-container section .breakdown-row span {
+			font-size: 12px;
+			line-height: 16px;
+		}
+
+		.sezzle-container section .breakdown-row .breakdown {
+			font-size: 16px;
+			line-height: 16px;
+		}
+
+		.sezzle-container h3.sezzle-header-3,
+		h2.sezzle-header-3 {
+			margin-top: 10px;
+			font-size: 25px;
+		}
+
+		.sezzle-container .how-to-sezzle .sezzle-column {
+			width: 100%;
+			float: left;
+			margin-bottom: 40px;
+		}
+
+		.sezzle-container .how-to-sezzle .sezzle-column .sezzle-steps-header {
+			font-size: 19px;
+		}
+	}
+
+	@media screen and (max-width: 350px) {
+		.sezzle-container section .sezzle-hiw-pie-bg {
+			height: 97px;
+			width: 275px;
+			margin-bottom: 40px;
+		}
+
+		.sezzle-container section .breakdown-row {
+			min-width: 220px;
+			max-width: 220px;
+			margin: auto 30px;
+		}
+	}
+</style>
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<div class="sezzle-container">
+	<div class="sezzle-logo">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="496px" height="193px" viewBox="0 0 496 193" version="1.1" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink">
+			<defs>
+				<linearGradient x1="78.5961587%" y1="85.6202908%" x2="46.0212846%" y2="37.6798239%"
+					id="linearGradient-1">
+					<stop stop-color="#CE5DCB" offset="0%"></stop>
+					<stop stop-color="#C558CC" offset="20.95%"></stop>
+					<stop stop-color="#AC4ACF" offset="55.25%"></stop>
+					<stop stop-color="#8534D4" offset="98.45%"></stop>
+					<stop stop-color="#8333D4" offset="100%"></stop>
+				</linearGradient>
+				<linearGradient x1="-0.00122003011%" y1="49.9952968%" x2="99.9968433%" y2="49.9952968%"
+					id="linearGradient-2">
+					<stop stop-color="#FF5667" offset="2.37%"></stop>
+					<stop stop-color="#FC8B82" offset="65.92%"></stop>
+					<stop stop-color="#FBA28E" offset="100%"></stop>
+				</linearGradient>
+				<linearGradient x1="0%" y1="13.42004%" x2="19.18346%" y2="13.42004%" id="linearGradient-3">
+					<stop stop-color="#00B874" offset="0%"></stop>
+					<stop stop-color="#29D3A2" offset="51.26%"></stop>
+					<stop stop-color="#53DFB6" offset="68.17%"></stop>
+					<stop stop-color="#9FF4D9" offset="100%"></stop>
+				</linearGradient>
+				<linearGradient x1="-0.00260647448%" y1="50.000149%" x2="99.9997915%" y2="50.000149%"
+					id="linearGradient-4">
+					<stop stop-color="#00B874" offset="0%"></stop>
+					<stop stop-color="#29D3A2" offset="51.26%"></stop>
+					<stop stop-color="#53DFB6" offset="68.17%"></stop>
+					<stop stop-color="#9FF4D9" offset="100%"></stop>
+				</linearGradient>
+				<linearGradient x1="-0.00281499244%" y1="49.9994784%" x2="99.9985404%" y2="49.9994784%"
+					id="linearGradient-5">
+					<stop stop-color="#FCD77E" offset="0%"></stop>
+					<stop stop-color="#FEA500" offset="52.41%"></stop>
+					<stop stop-color="#FF5B00" offset="100%"></stop>
+				</linearGradient>
+			</defs>
+			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="RetailPartner---How-to-Sezzle-Page" transform="translate(-1192.000000, -152.000000)">
+					<g id="Group-3" transform="translate(1192.000000, 152.000000)">
+						<g id="Sezzle_Logo_FullColor" fill-rule="nonzero">
+							<g id="SezzleIcon">
+								<path
+									d="M8.1908642,83.875 C19.11,95.15625 36.8104938,95.15625 47.7296296,83.875 L48.7761728,82.79375 C54.232716,77.15625 43.3135802,47.58125 48.7761728,41.94375 L8.1908642,83.875 Z"
+									id="Path" fill="url(#linearGradient-1)"></path>
+								<path
+									d="M49.8287654,40.85625 L48.7822222,41.9375 C43.325679,47.575 54.2387654,77.15 48.7822222,82.7875 L89.3675309,40.85625 C83.9049383,35.21875 76.7545679,32.3999897 69.5981481,32.3999897 C62.4417284,32.39375 55.2853086,35.21875 49.8287654,40.85625"
+									id="Path" fill="url(#linearGradient-2)"></path>
+								<g id="SVGID_3_-link" fill="url(#linearGradient-4)">
+									<path
+										d="M8.1908642,43.025 C-2.7282716,54.30625 -2.7282716,72.59375 8.1908642,83.875 L49.8348148,40.85 C60.7539506,29.56875 60.7539506,11.28125 49.8348148,-8.8817842e-15 L8.1908642,43.025 Z"
+										id="SVGID_3_"></path>
+								</g>
+								<path
+									d="M47.7296296,83.875 C36.8104938,95.15625 36.8104938,113.44375 47.7296296,124.725 L89.3735802,81.7 C100.292716,70.41875 100.292716,52.13125 89.3735802,40.85 L47.7296296,83.875 Z"
+									id="Path" fill="url(#linearGradient-5)"></path>
+							</g>
+							<g id="Group" transform="translate(130.000000, 10.000000)" fill="#382757">
+								<path
+									d="M127.488463,52.3711409 C126.622085,49.3362416 125.331867,46.4352349 123.642742,43.7637584 C120.756893,39.1922819 116.749115,35.3795302 112.037016,32.7399329 C104.601124,28.5892617 95.7191906,27.6137584 87.5478121,30.0493289 C79.2954055,32.5104027 72.482807,38.1211409 68.3566037,45.8550336 C64.2553322,53.5506711 63.307926,62.4130872 65.6951403,70.8291946 L65.720072,70.9120805 C66.2685703,72.7865772 67.1474142,75.1838926 67.166113,75.2221477 C69.9023717,81.7765101 74.4898123,86.7815436 81.1777521,90.5177852 C85.9023172,93.1637584 91.2190112,94.5600671 96.554404,94.5600671 C99.6210082,94.5600671 102.68138,94.1073826 105.65449,93.2083893 C111.943522,91.3275168 117.428505,87.6167785 121.573407,82.4013423 L121.83519,82.0697987 C122.894789,80.7053691 123.848429,79.245302 124.677409,77.7214765 C126.154615,75.0244966 125.207208,71.6006711 122.570677,70.0895973 C121.754162,69.6241611 120.831688,69.3755034 119.896747,69.3755034 C117.908441,69.3755034 116.075958,70.4721477 115.109853,72.2446309 C113.757306,74.7184564 111.962221,76.8734899 109.780693,78.6332215 C109.593705,78.7862416 109.41295,78.9520134 109.319456,79.0667785 C107.312451,80.5969799 105.043662,81.7446309 102.587886,82.4842282 C97.2150951,84.0973154 91.3561357,83.4533557 86.4134179,80.6989933 C83.1535926,78.8818792 80.4297998,76.1848993 78.4913569,72.8822148 L123.786099,59.295302 C126.671948,58.4281879 128.329909,55.3231544 127.488463,52.3711409 Z M96.6416651,39.8681208 C100.144575,39.8681208 103.653717,40.7926174 106.795117,42.5395973 C109.892886,44.2674497 112.548116,46.785906 114.467861,49.8144295 C114.573821,49.9865772 114.686013,50.1651007 114.791973,50.3436242 L75.3561903,62.1771812 C75.2564633,58.3708054 76.154006,54.583557 77.9615573,51.1979866 C80.6791172,46.1036913 85.1730637,42.3993289 90.6206494,40.7607383 C92.6027228,40.1677852 94.6284269,39.8681208 96.6416651,39.8681208 Z"
+									id="Shape"></path>
+								<path
+									d="M185.623052,83.9124161 L155.655098,83.9124161 L189.169593,33.5560403 C189.805352,32.6060403 189.867681,31.3818792 189.344115,30.361745 C188.820548,29.3416107 187.792114,28.7104027 186.663953,28.7104027 L144.055605,28.7104027 C141.225853,28.7104027 138.9259,31.0630872 138.9259,33.9577181 C138.9259,36.852349 141.225853,39.2050336 144.055605,39.2050336 L172.608683,39.2050336 L139.106655,89.5614094 C138.470895,90.5177852 138.408566,91.7419463 138.932132,92.7557047 C139.455699,93.7758389 140.484133,94.4006711 141.612295,94.4006711 L185.616819,94.4006711 C188.446572,94.4006711 190.746538,92.0479866 190.746538,89.1533557 C190.752758,86.2714765 188.452805,83.9124161 185.623052,83.9124161 Z"
+									id="Path"></path>
+								<path
+									d="M252.016281,83.9124161 L222.05456,83.9124161 L255.562822,33.5560403 C256.198581,32.6060403 256.26091,31.3818792 255.737344,30.361745 C255.213777,29.3479866 254.185343,28.7167785 253.057182,28.7167785 L210.455067,28.7167785 C207.625315,28.7167785 205.325362,31.0694631 205.325362,33.964094 C205.325362,36.8587248 207.625315,39.2114094 210.455067,39.2114094 L239.008145,39.2114094 L205.506117,89.5677852 C204.87659,90.5241611 204.808028,91.7483221 205.331594,92.7620805 C205.861394,93.7822148 206.883595,94.407047 208.011757,94.407047 L252.016281,94.407047 C254.846034,94.407047 257.145987,92.0543624 257.145987,89.1597315 C257.145987,86.2714765 254.846034,83.9124161 252.016281,83.9124161 Z"
+									id="Path"></path>
+								<path
+									d="M281.604026,0.29966443 C278.774274,0.29966443 276.47432,2.65234899 276.47432,5.54697987 L276.47432,89.3446309 C276.47432,92.2392617 278.774274,94.5919463 281.604026,94.5919463 C284.433779,94.5919463 286.733732,92.2328859 286.733732,89.3446309 L286.733732,5.54697987 C286.733732,2.65234899 284.433779,0.29966443 281.604026,0.29966443 Z"
+									id="Path"></path>
+								<path
+									d="M365.754889,52.3775168 C364.894743,49.3426174 363.598293,46.4479866 361.9154,43.7701342 C359.029551,39.1986577 355.015541,35.385906 350.309674,32.7463087 C342.867549,28.5956376 333.998082,27.6201342 325.820471,30.0557047 C317.568064,32.5167785 310.755466,38.1275168 306.635495,45.8614094 C302.527991,53.5506711 301.586817,62.4194631 303.967799,70.8355705 L303.992731,70.9248322 C304.541229,72.792953 305.420073,75.1902685 305.438772,75.2348993 C308.17503,81.7892617 312.762471,86.7879195 319.450411,90.5305369 C324.174976,93.1765101 329.49167,94.5728188 334.827063,94.5728188 C337.887434,94.5728188 340.954038,94.1201342 343.927148,93.2211409 C350.21618,91.3402685 355.701164,87.6295302 359.839833,82.4204698 L360.107849,82.0697987 C361.167448,80.6989933 362.121087,79.2389262 362.943835,77.7342282 C364.42104,75.0372483 363.473634,71.6134228 360.837102,70.102349 C360.020588,69.6369128 359.098113,69.388255 358.163173,69.388255 C356.174867,69.388255 354.342384,70.4848993 353.376279,72.2573826 C352.023732,74.7375839 350.228646,76.8862416 348.053352,78.6459732 C347.860131,78.7989933 347.685609,78.9647651 347.585882,79.0795302 C345.578876,80.6097315 343.310088,81.7573826 340.848078,82.4969799 C335.481521,84.1100671 329.616328,83.4661074 324.673611,80.711745 C321.413785,78.8946309 318.68376,76.197651 316.75155,72.8949664 L362.052525,59.295302 C364.938374,58.4281879 366.596335,55.3231544 365.754889,52.3775168 Z M334.914324,39.8681208 C338.417233,39.8681208 341.926376,40.7926174 345.067776,42.5395973 C348.165545,44.2674497 350.814542,46.785906 352.740519,49.8144295 C352.846479,49.9865772 352.958672,50.1651007 353.064632,50.3436242 L313.628849,62.1771812 C313.529122,58.3644295 314.426665,54.583557 316.234216,51.1979866 C318.951776,46.1036913 323.445722,42.3993289 328.893308,40.7607383 C330.869149,40.1677852 332.894853,39.8681208 334.914324,39.8681208 Z"
+									id="Shape"></path>
+								<path
+									d="M48.5109371,65.2312081 C46.9901008,62.9550336 44.7898746,61.0550336 41.9850536,59.5885906 C37.3913801,57.197651 31.4389267,56.1010067 25.7295578,55.1892617 L24.8257821,55.0489933 C20.8180046,54.4114094 16.6731025,53.7483221 14.011639,52.3711409 C11.9984009,51.3255034 11.2816133,50.152349 11.2816133,47.8634228 C11.2816133,43.4322148 15.9999454,40.0912752 22.2515798,40.0912752 C29.7186365,40.0912752 33.8822374,42.3228188 38.5569391,45.2365772 C39.4233171,45.7785235 40.4205868,46.0654362 41.4303223,46.0654362 C43.3749982,46.0654362 45.1389189,45.0580537 46.1548874,43.3620805 C46.9215385,42.0741611 47.1583901,40.5567114 46.8093457,39.0838926 C46.4603013,37.6174497 45.5752244,36.3741611 44.3161715,35.5899329 C41.7295032,33.9704698 38.8997505,32.2872483 35.3282785,30.9738255 C31.3080351,29.5010067 27.0322413,28.7805369 22.2578127,28.7805369 C16.4985803,28.7805369 11.1070911,30.5721477 7.08684767,33.8238255 C2.6676964,37.3942953 0.230618614,42.3802013 0.230618614,47.8634228 C0.230618614,54.4305369 3.27229114,59.4802013 9.02529062,62.4577181 C13.2512209,64.6446309 18.2749669,65.4416107 23.1304237,66.2130872 L24.0279664,66.3533557 C36.4813715,68.3489933 40.0840083,70.1469799 40.0840083,74.3614094 C40.0840083,79.5832215 34.9730011,83.0006711 27.063406,83.0708054 L26.7766909,83.0708054 C18.2874328,83.0708054 13.5254701,79.7362416 10.9699665,77.9446309 C10.5461269,77.6513423 10.1846166,77.3899329 9.82310636,77.1604027 C8.94426245,76.5993289 7.9345269,76.3060403 6.89985961,76.3060403 C4.98011547,76.3060403 3.22242766,77.3006711 2.20645917,78.9647651 C0.592128873,81.6107383 1.38371168,85.104698 3.97037992,86.7560403 C4.11373744,86.845302 4.33189018,86.9983221 4.57497466,87.1704698 L4.72456512,87.2724832 C7.76000471,89.3956376 14.8655512,94.3815436 26.7766909,94.3815436 L27.1569,94.3815436 C34.0255949,94.3177852 39.9219519,92.4305369 44.2226774,88.9110738 C48.6792263,85.2577181 51.1350029,80.0932886 51.1350029,74.3677852 C51.12877,70.892953 50.2436931,67.8261745 48.5109371,65.2312081 Z"
+									id="Path"></path>
+							</g>
+						</g>
+						<text id="The-way-forward." font-family="Comfortaa-Regular_Bold, Comfortaa" font-size="44"
+							font-weight="bold" fill="#382757">
+							<tspan x="58" y="183">The way forward.</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</svg>
+	</div>
+	<section class="how-it-works">
+		<h2 class="sezzle-header-3">
+			Buy now, pay later.
+		</h2>
+		<hr class="sezzle-hr">
+		</hr>
+		<p class="sezzle-description">
+			Split your entire online purchase into 4 interest-free payments, over 6 weeks with no impact to your credit.
+		</p>
+		<div class="sezzle-hiw-pie-bg">
+			<img class="sezzle-payment-pie-graph"
+				src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/payment-pie-graph.svg"
+				alt="payment break down 25% today, 25% 2 weeks, 25% 4 weeks, 25% 6 weeks" />
+			<div class="sezzle-row breakdown-row">
+				<p class="breakdown">25%<br /><span>today</span></p>
+				<p class="breakdown">25%<br /><span>2 weeks</span></p>
+				<p class="breakdown">25%<br /><span>4 weeks</span></p>
+				<p class="breakdown">25%<br /><span>6 weeks</span></p>
+			</div>
+		</div>
+	</section>
+	<section class="how-to-sezzle">
+		<h3 class="sezzle-header-3">Here's how to Sezzle</h3>
+		<hr class="sezzle-hr">
+		</hr>
+		<div class="sezzle-column">
+			<div class="sezzle-hiw-bg">
+				<img src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/step-1-shop.png"
+					class="sezzle-hiw-shop sezzle-hiw-image" alt="Step 1 - shop the store" />
+			</div>
+			<h3 class="sezzle-steps-header">Shop</h3>
+			<p class="sezzle-steps-copy">Shop and add items to your cart as normal!</p>
+		</div>
+		<div class="sezzle-column">
+			<div class="sezzle-hiw-bg">
+				<img src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/step-2-checkout.png"
+					class="sezzle-hiw-checkout sezzle-hiw-image" alt="Step 2 - checkout at the store" />
+			</div>
+			<h3 class="sezzle-steps-header">Checkout</h3>
+			<p class="sezzle-steps-copy">Choose Sezzle at Checkout! You’ll be redirected to Sezzle to Sign Up or Log In
+				to complete your order.</p>
+		</div>
+		<div class="sezzle-column">
+			<div class="sezzle-hiw-bg">
+				<img src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/step-3-sezzle-it.png"
+					class="sezzle-hiw-sezzle-it sezzle-hiw-image" alt="Step 3 - Select Sezzle and Sezzleit" />
+			</div>
+			<h3 class="sezzle-steps-header">Sezzle it</h3>
+			<p class="sezzle-steps-copy">Your order will be shipped out right away* and your payments will be split up
+				over 6 weeks.</p>
+		</div>
+		<p class="sezzle-note">*shipping times subject to merchant shipping policy</p>
+	</section>
+	<section class="sezzle-app">
+		<h3 class="sezzle-header-3">Download the App</h3>
+		<hr class="sezzle-hr">
+		</hr>
+		<p>Shop directory. Reschedule payments. Plus more!</p>
+		<div class="sezzle-row">
+			<a href="https://itunes.apple.com/us/app/sezzle/id1434922495?mt=8" target="_blank">
+				<img class="sezzle-apple"
+					src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/apple-store.png"
+					alt="apple store Sezzle app download - opens in new window" />
+			</a>
+			<a href="https://play.google.com/store/apps/details?id=com.sezzle.sezzlemobile&hl=en_US&utm_source=sezzle_website&utm_campaign=app_download"
+				target="_blank">
+				<img class="sezzle-google"
+					src="https://media.sezzle.com/branding/2.0/merchant/howItWorks/google-play.png"
+					alt="google play store Sezzle app download - opens in new window" />
+			</a>
+		</div>
+	</section>
+</div>

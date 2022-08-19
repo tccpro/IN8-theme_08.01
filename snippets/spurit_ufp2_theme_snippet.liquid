@@ -1,0 +1,56 @@
+<script>
+  if(typeof(Spurit) === 'undefined'){
+    var Spurit = {};
+  }
+  if(!Spurit.UpsellForProducts2){
+    Spurit.UpsellForProducts2 = {};
+  }
+  if(!Spurit.UpsellForProducts2.snippet){
+    Spurit.UpsellForProducts2.snippet = {};
+  }
+  if(!Spurit.UpsellForProducts2.snippet.products){
+      Spurit.UpsellForProducts2.snippet.products = {};
+  }
+  Spurit.UpsellForProducts2.snippet.shopHash = '0680e4edb49b8dd28c7e59433a31df70';
+  Spurit.UpsellForProducts2.snippet.cacheTimestamp = 1649112848;
+
+  if (typeof(Spurit.globalSnippet) === 'undefined'){
+      Spurit.globalSnippet = {
+          shop_currency: '{{ shop.currency }}',
+          money_format: '{{ shop.money_format }}',
+          cart: {{ cart | json }},
+          customer_id: '{{ customer.id }}'
+      };
+  }
+
+  {% for line_item in cart.items %}
+    {% render 'spurit_ufp2_product_details_snippet', product: line_item.product %}
+  {% endfor %}
+
+  {% if product %}
+    {% render 'spurit_ufp2_product_details_snippet', product: product %}
+  {% endif %}
+  {% if products %}
+    {% render 'spurit_ufp2_products_list_snippet', products: products %}
+  {% endif %}
+
+  {% assign pageType = template | split: '.' | first %}
+  {% if pageType == 'product' %}
+    {% render 'spurit_ufp2_product_details_snippet', product: product %}
+  {% elsif pageType == 'search' %}
+    {% paginate search.results %}
+        {% render 'spurit_ufp2_products_list_snippet', products: search.results %}
+    {% endpaginate %}
+  {% elsif pageType == 'collection' %}
+    {% paginate collection.products %}
+        {% render 'spurit_ufp2_products_list_snippet', products: collection.products %}
+    {% endpaginate %}
+  {%endif%}
+</script>
+
+<script src="https://cdn-spurit.com/all-apps/spurit.global-2.x.min.js" async></script>
+<script src="https://cdn-spurit.com/shopify-apps/8upsell/store/0680e4edb49b8dd28c7e59433a31df70.js?1649112848" async></script>
+<link href="https://cdn-spurit.com/shopify-apps/8upsell/store/0680e4edb49b8dd28c7e59433a31df70.css?1649112848" rel="stylesheet" type="text/css" media="all">
+
+    <script src="https://cdn-spurit.com/shopify-apps/8upsell/common.js" async></script>
+    <link href="https://cdn-spurit.com/shopify-apps/8upsell/common.css" rel="stylesheet" type="text/css" media="all">

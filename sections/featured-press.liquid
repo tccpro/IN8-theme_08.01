@@ -1,0 +1,287 @@
+{% style %}
+/* === Desktop Version === */
+
+
+
+.ftrd-intro-box .banner-description span {
+    color: {{section.settings.text_color}};
+}
+
+#section-press-{{section.id}} .ftrd-intro-box .banner-title h1 {
+    color: {{section.settings.title_color}};
+}
+
+#section-press-{{section.id}} .ftrd-intro-box .image-banner-box {
+    height: {{section.settings.image_height_desktop}};
+}
+
+
+/* === Mobile Version === */
+@media screen and (max-width: 767px) {
+    #section-press-{{section.id}} .ftrd-intro-box .image-banner-box {
+        height: {{section.settings.image_height_mobile}};
+    }
+}
+{% endstyle %}
+
+<div class="page-width ftrd-press-box" id="section-press-{{section.id}}">
+    <div class="ftrd-intro-box">
+        <div class="image-banner-box">
+            {% if section.settings.banner_image != blank %}
+                <img
+                    srcset="{{ section.settings.banner_image | img_url: 'master' }} "
+                    src="{{ section.settings.banner_image | img_url: 'master' }}"
+                    loading="lazy"
+                    alt="{{ section.settings.banner_image.alt | escape }}"
+                >
+            {% else %}
+                {{ 'lifestyle-2' | placeholder_svg_tag: 'custom-class' }}
+            {% endif %}
+            <div class="banner-title"><h1>{{section.settings.banner_title}}</h1></div>
+        </div>
+        
+        {% if section.settings.introduction != blank %}
+            <div class="banner-description {{section.settings.box_shadow}}"><span>{{section.settings.introduction}}</span></div>
+        {% endif %}
+    </div>
+    {% if section.blocks.size > 0 %}
+        <div class="blog-lists">
+            {% for block in section.blocks %}
+                <div class="ftrd-blog-pnl logo-{{section.settings.logo_position}} ">
+                    {% if section.settings.enable_logo_display == true%}
+                        <div class="ftrd-blog-logo">
+                            <img class="logo-size-{{section.settings.logo_height_mobile}}"
+                                srcset="{{ block.settings.blog_logo | img_url: 'master' }} "
+                                src="{{ block.settings.blog_logo | img_url: 'master' }}"
+                                loading="lazy"
+                                alt="{{ block.settings.blog_logo.alt | escape }}"
+                            >
+                        </div>
+                    {% endif %}
+                    <div class="ftrd-blog-content">
+                        <div class="ftrd-blog-title">
+                            <h1>{{block.settings.blog_title}}</h1>
+                        </div>
+                        <div class="ftrd-blog-article">
+                            <span>"{{block.settings.blog_article}}"</span>
+                        </div>
+                        <div class="ftrd-blod-readmore">
+                            <a {% if block.settings.link != blank %} href="{{block.settings.link}}" {% endif %} class="ftrd-read-more" target="_blank" >Read More ></a>
+                        </div>
+                        <div class="ftrd-company-date"><h1>{{block.settings.date}}</h1></div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "t:sections.featured-press.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "t:sections.featured-press.settings.header.content"
+        },
+        {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "t:sections.featured-press.settings.banner_image.label"
+        },
+        {
+            "type": "select",
+            "id": "image_height_desktop",
+            "label": "t:sections.featured-press.settings.banner_height_desktop.label",
+            "info": "t:sections.featured-press.settings.banner_height_desktop.info",
+            "options": [
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_desktop.options__1.label",
+                    "value": "auto"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_desktop.options__3.label",
+                    "value": "750px"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_desktop.options__4.label",
+                    "value": "550px"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_desktop.options__5.label",
+                    "value": "450px"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "image_height_mobile",
+            "label": "t:sections.featured-press.settings.banner_height_mobile.label",
+            "info": "t:sections.featured-press.settings.banner_height_mobile.info",
+            "options": [
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_mobile.options__1.label",
+                    "value": "auto"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_mobile.options__3.label",
+                    "value": "450px"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_mobile.options__4.label",
+                    "value": "350px"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_height_mobile.options__5.label",
+                    "value": "250px"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "banner_title",
+            "label": "t:sections.featured-press.settings.banner_title.label",
+            "default": "In The Press"
+        },
+        {
+            "type": "select",
+            "id": "title_color",
+            "label": "t:sections.featured-press.settings.banner_title_color.label",
+            "options": [
+                {
+                    "label": "t:sections.featured-press.settings.banner_title_color.options__1.label",
+                    "value": "white"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.banner_title_color.options__2.label",
+                    "value": "black"
+                }
+            ],
+            "default": "white"
+        },
+        {
+            "type": "textarea",
+            "id": "introduction",
+            "label": "t:sections.featured-press.settings.introduction.label"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "t:sections.featured-press.settings.text_color.label",
+            "info": "t:sections.featured-press.settings.text_color.info",
+            "default": "#778379"            
+        },
+        {
+            "type": "radio",
+            "id": "box_shadow", 
+            "label": "t:sections.featured-press.settings.intro_box_shadow.label",
+            "options": [
+                {
+                    "label": "t:sections.featured-press.settings.intro_box_shadow.options__1.label",
+                    "value": "ftrd-intro-box-shadow"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.intro_box_shadow.options__2.label",
+                    "value": "box-shadow-none"
+                }
+            ],
+            "default": "ftrd-intro-box-shadow"
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_logo_display",
+            "label": "t:sections.featured-press.settings.enable_logo_display.label",
+            "default": true
+        },
+        {
+            "type": "select",
+            "id": "logo_position",
+            "label": "t:sections.featured-press.settings.logo_position.label",
+            "info": "t:sections.featured-press.settings.logo_position.info",
+            "default": "left",
+            "options": [
+                { 
+                    "label": "t:sections.featured-press.settings.logo_position.options__1.label",
+                    "value": "left"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.logo_position.options__2.label",
+                    "value": "top"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "logo_height_mobile",
+            "label": "t:sections.featured-press.settings.logo_height_mobile.label",
+            "info": "t:sections.featured-press.settings.logo_height_mobile.info",
+            "default": "auto",
+            "options": [
+                { 
+                    "label": "t:sections.featured-press.settings.logo_height_mobile.options__1.label",
+                    "value": "auto"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.logo_height_mobile.options__2.label",
+                    "value": "large"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.logo_height_mobile.options__3.label",
+                    "value": "medium"
+                },
+                {
+                    "label": "t:sections.featured-press.settings.logo_height_mobile.options__4.label",
+                    "value": "small"
+                }
+            ]
+        }
+    ],
+    "blocks": [
+        {
+            "name": "t:sections.featured-press.blocks.blocks__1.name",
+            "type": "blog",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "t:sections.featured-press.blocks.blocks__1.header.content"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "blog_logo",
+                    "label": "t:sections.featured-press.blocks.blocks__1.settings.logo.label"
+                },
+                {
+                    "type": "text",
+                    "id": "date",
+                    "label": "t:sections.featured-press.blocks.blocks__1.settings.date.label",
+                    "info": "e.g. Cannabis Life Network, January 15, 2022"
+                },
+                {
+                    "type": "text",
+                    "id": "blog_title",
+                    "label": "t:sections.featured-press.blocks.blocks__1.settings.title.label"
+                },
+                {
+                    "type": "textarea",
+                    "id": "blog_article",
+                    "label": "t:sections.featured-press.blocks.blocks__1.settings.article.label"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "t:sections.featured-press.blocks.blocks__1.settings.link.label"
+                }
+            ]
+        }  
+    ],
+    "presets": [
+        {
+            "name": "t:sections.featured-press.name",
+            "blocks": [
+            ]
+        }
+    ]
+}
+{% endschema %}

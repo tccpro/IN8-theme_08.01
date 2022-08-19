@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "5414427e-e261-4714-ae20-58620277791b": {
+          "type": "text",
+          "settings": {
+            "text": "Plus 2 ceramic loading chambers and 1 adjustable silicone mouthpiece when purchased with Trident.",
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "ec9f58e2-5ba8-47a4-8610-679b96ee5f45": {
+          "type": "text",
+          "settings": {
+            "text": "Please read the warranty terms listed below",
+            "text_style": "uppercase"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "a2f99941-3352-4893-a966-28ae22a48e66": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<center>Get it by <u>Mon, Mar 22<\/u> with <b>FREE Shipping<\/b>\n<\/center><br>",
+            "text_style": "body"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Free Shipping",
+            "icon": "truck",
+            "content": "<p>Enjoy free shipping on all orders over $99.<\/p>",
+            "page": ""
+          }
+        },
+        "514e2155-c0a3-4737-ac7a-12645498d722": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "1-Year Warranty Included",
+            "icon": "check_mark",
+            "content": "<p>All purchases of the Trident come with a 1-year warranty. <a href=\"\/pages\/qr-code-scan\" title=\"QR Code Scan\">View warranty details<\/a>. <\/p><p>We also offer an extended 3-year warranty. <a href=\"\/pages\/contact\" title=\"Contact\">Register for a 3 year warranty.<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Pay Over Time",
+            "icon": "price_tag",
+            "content": "<p>Check out with Sezzle and split your entire order into 4 interest-﻿free payments over 6 weeks.<\/p>",
+            "page": ""
+          }
+        },
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Inside The Box",
+            "icon": "box",
+            "content": "<p>1x Trident<br\/>1x USB-C charging cable<br\/>1x High output adaptor<br\/>1x Loading chamber<br\/>1x Silicone hookah hose<br\/>1x Hose connecter<br\/>1x Metal compressor<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "5414427e-e261-4714-ae20-58620277791b",
+        "price",
+        "ec9f58e2-5ba8-47a4-8610-679b96ee5f45",
+        "buy_buttons",
+        "a2f99941-3352-4893-a966-28ae22a48e66",
+        "vendor",
+        "description",
+        "d2e86575-9cbe-48ec-8897-61dde524f0f5",
+        "variant_picker",
+        "quantity_selector",
+        "ea83e4e3-ce63-496b-aa7a-a5b7d2a6842a",
+        "514e2155-c0a3-4737-ac7a-12645498d722",
+        "645424c8-8e7c-43bc-91c6-01f4e49915d2",
+        "f4380501-00fc-464c-a26d-7cdb9e102b4f",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1645947729593f8e62": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "b2e82820-bfe3-484c-8f11-be9b65d89f3f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "SIMILAR RECOMMENDATIONS",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "16459483359f6cafb6": {
+      "type": "image-banner",
+      "blocks": {
+        "1645948335f7b7be38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHOOSE TO GO HIGH",
+            "heading_size": "medium"
+          }
+        },
+        "1645948335f7b7be38-1": {
+          "type": "text",
+          "settings": {
+            "text": "The cleanest and most flavorful experience. No hemp wick or butane fumes. Did we also mention that it’s windproof? ",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "1645948335f7b7be38-0",
+        "1645948335f7b7be38-1"
+      ],
+      "settings": {
+        "top_space_size": 60,
+        "bottom_space_size": 0,
+        "image": "shopify:\/\/shop_images\/Hitoki_Homepage_Footer_01.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1645947729593f8e62",
+    "product-recommendations",
+    "16459483359f6cafb6"
+  ]
+}

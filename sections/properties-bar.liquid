@@ -1,0 +1,208 @@
+{%- style -%}
+  .progressbar-items {
+    max-width:700px;
+    margin:0 auto;
+    transform: translateX(-67.5px);
+  }
+  @media screen and (max-width: 750px) {
+    .progressbar-items {
+      transform: translateX(0px);
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  .bar-item {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .properties-bar .banner__heading {
+    margin:0 0 20px;
+  }
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  .meter {
+    background: #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    display: block;
+    height: 15px;
+    margin-bottom: 0px;
+    padding: 3px;
+    position: relative;
+    width:100%;
+  }
+  .meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: {{ section.settings.progressbar_color}};
+    box-shadow: inset 0 2px 9px rgba(255,255,255,0.3) inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    transition: width 2s ease-out;
+  }
+  #section--{{ section.id }} {
+    background:{{section.settings.bg_color}};
+    margin-top:{{section.settings.margin_top}}px;
+    margin-bottom:{{section.settings.margin_bottom}}px;
+    padding: {{section.settings.padding_vertical}}px {{section.settings.padding_horizontal}}px;
+  }
+  #section--{{ section.id }} .banner__heading {
+    color: {{section.settings.text_color}};
+    text-align:center;
+  }
+  #section--{{ section.id }} .item-label {
+    color: {{section.settings.text_color}};
+    width:0%;
+    text-align:right;
+    padding-right:10px;
+    min-width:135px;
+  }
+{%- endstyle -%}
+
+<div id="section--{{ section.id }}" class="properties-bar">
+  {% if section.settings.heading != blank %}
+    <h2 class="banner__heading h1">{{ section.settings.heading}}</h2>
+  {% endif %}
+  <div class="progressbar-items">
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        <div class="bar-item">
+          <span class="item-label">{{ block.settings.heading}}</span>
+          <div class="meter cadetblue">
+            <span data-progress="{{block.settings.percentage}}" style="width:0;"></span>
+          </div>
+        </div>
+        
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<script>
+  var bars = document.querySelectorAll(".meter > span");
+  console.clear();
+
+  setInterval(function () {
+    bars.forEach(function (bar) {
+      var getWidth = parseFloat(bar.dataset.progress);
+
+      for (var i = 0; i <= getWidth; i++) {
+        bar.style.width = i + "%";
+      }
+    });
+  }, 100);
+</script>
+{% schema %}
+{
+  "name": "properties bar",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 52
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Headline",
+      "label": "Headline"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Vertical",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Pading Horizontal",
+      "default": 30
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default":"#D6C7A3"
+    },
+    {
+      "type": "color",
+      "id": "progressbar_color",
+      "label": "Progress bar Color",
+      "default":"#2bc253"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "progressbar",
+      "name": "progress_bar",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "flavor",
+          "label": "Label"
+        },
+        {
+          "type": "range",
+          "id": "percentage",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Choose the charge%",
+          "default": 52
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "properties bar"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1649062130a41e3b13": {
+      "type": "rich-text",
+      "blocks": {
+        "16490621309d15afd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready in 3 easy steps",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16490621309d15afd0-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1649060882c2d87b80": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"padding-top: 56.25%; position: relative; overflow: hidden;\"><iframe frameborder=\"0\" allowfullscreen=\"\" scrolling=\"no\" allow=\"autoplay;fullscreen\" src=\"https:\/\/onelineplayer.com\/player.html?autoplay=false&autopause=false&muted=false&loop=false&url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0092%2F5224%2F1470%2Ffiles%2FHitoki_Trident_Easy_To_Start.mp4%3Fv%3D1631051172&poster=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0092%2F5224%2F1470%2Ffiles%2FHitoki_Trident_Easy_To_Start.png%3Fv%3D1631051530&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true\" style=\"position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;\"><\/iframe><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 44
+      }
+    },
+    "16490623979c73f7c2": {
+      "type": "rich-text",
+      "blocks": {
+        "1649062397de32c60e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to clean",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1649062397de32c60e-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "164906231674fb6ebc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"padding-top: 56.25%; position: relative; overflow: hidden;\"><iframe frameborder=\"0\" allowfullscreen=\"\" scrolling=\"no\" allow=\"autoplay;fullscreen\" src=\"https:\/\/onelineplayer.com\/player.html?autoplay=false&autopause=false&muted=false&loop=false&url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0092%2F5224%2F1470%2Ffiles%2FHitoki_Trident_How_to_clean.mp4%3Fv%3D1631051175&poster=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0092%2F5224%2F1470%2Ffiles%2FHitoki_Trident_How_to_clean.png%3Fv%3D1631051346&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true\" style=\"position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;\"><\/iframe><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 52
+      }
+    },
+    "1649062359a8896e9c": {
+      "type": "rich-text",
+      "blocks": {
+        "164906235938951a82-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trident Tutorial",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "164906235938951a82-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "164906234696b12a5e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"padding-top: 56.25%; position: relative; overflow: hidden;\"><iframe frameborder=\"0\" allowfullscreen=\"\" scrolling=\"no\" allow=\"autoplay;fullscreen\" src=\"https:\/\/onelineplayer.com\/player.html?autoplay=false&autopause=false&muted=false&loop=false&url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0092%2F5224%2F1470%2Ffiles%2FHitoki_Trident_Tutorial_2022_720.mp4%3Fv%3D1648412728&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true\" style=\"position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;\"><\/iframe><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 52
+      }
+    },
+    "1649060941bf85268c": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "How to use",
+        "cover_image": "shopify:\/\/shop_images\/Hitok_Video_Use_01.jpg",
+        "text_color": "white",
+        "content_heading": "",
+        "content_sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "description": "",
+        "background_color": "#ffffff",
+        "video_display_mode": "contain",
+        "desktop_height": "auto",
+        "mobile_height": "auto",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/5224\/1470\/files\/Hitoki_Trident_Easy_To_Start.mp4?v=1631051172",
+        "enable_video_mobile": false,
+        "video_url_mobile": "",
+        "html5_video_mobile": "",
+        "autoplay": false,
+        "autoloop": false,
+        "mute_video": false,
+        "show_controls": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164906120735cab0b9": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "How to clean",
+        "cover_image": "shopify:\/\/shop_images\/Hitok_Video_Clean_01.jpg",
+        "text_color": "white",
+        "content_heading": "",
+        "content_sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "description": "",
+        "background_color": "#ffffff",
+        "video_display_mode": "contain",
+        "desktop_height": "auto",
+        "mobile_height": "auto",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/5224\/1470\/files\/Hitoki_Trident_How_to_clean.mp4?v=1631051175",
+        "enable_video_mobile": false,
+        "video_url_mobile": "",
+        "html5_video_mobile": "",
+        "autoplay": false,
+        "autoloop": false,
+        "mute_video": false,
+        "show_controls": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16490612247f3f3a2b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Getting started",
+        "cover_image": "shopify:\/\/shop_images\/Hitok_Video_Welcome_01.jpg",
+        "text_color": "white",
+        "content_heading": "",
+        "content_sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "middle-center",
+        "description": "",
+        "background_color": "#ffffff",
+        "video_display_mode": "contain",
+        "desktop_height": "auto",
+        "mobile_height": "auto",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/5224\/1470\/files\/Hitoki_Trident_Tutorial_2022_720.mp4?v=1648412728",
+        "enable_video_mobile": false,
+        "video_url_mobile": "",
+        "html5_video_mobile": "",
+        "autoplay": false,
+        "autoloop": false,
+        "mute_video": false,
+        "show_controls": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649062130a41e3b13",
+    "1649060882c2d87b80",
+    "16490623979c73f7c2",
+    "164906231674fb6ebc",
+    "1649062359a8896e9c",
+    "164906234696b12a5e",
+    "1649060941bf85268c",
+    "164906120735cab0b9",
+    "16490612247f3f3a2b"
+  ]
+}

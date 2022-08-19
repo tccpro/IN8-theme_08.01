@@ -1,0 +1,555 @@
+{
+  "sections": {
+    "16478993227416a596": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "text_color": "white",
+        "content_heading": "New hues in bloom.",
+        "content_sub_heading": "Shop the latest band styles and colors.",
+        "button_label": "Select Your style",
+        "button_link": "shopify:\/\/collections\/apple-watch",
+        "button_style": "secondary",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "bottom-right",
+        "description": "Apple Watch Sport Loop Bands",
+        "background_color": "#ffffff",
+        "video_display_mode": "cover",
+        "desktop_height": "750px",
+        "mobile_height": "550px",
+        "full_width": true,
+        "color_scheme": "inverse",
+        "video_url": "",
+        "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0597\/1194\/6949\/files\/Homepage_Video.mp4?v=1649303629",
+        "enable_video_mobile": false,
+        "video_url_mobile": "",
+        "html5_video_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0597\/1194\/6949\/files\/Homepage_Video.mp4?v=1649303629",
+        "autoplay": true,
+        "autoloop": true,
+        "mute_video": true,
+        "show_controls": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1647416379a6bd82f2": {
+      "type": "logo-bar",
+      "blocks": {
+        "30e778b6-82a0-4314-96bf-32b2de86d660": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured_Partner_0.0.4.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "d68cafec-a5d0-4fc2-a17f-9b4357938976": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured_Partner_0_0_5.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "8a8bd6bb-5e05-4ae8-82da-5be0fd2aeb25": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Homepage_Image_0.0.8.png",
+            "image_width": 180,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "30e778b6-82a0-4314-96bf-32b2de86d660",
+        "d68cafec-a5d0-4fc2-a17f-9b4357938976",
+        "8a8bd6bb-5e05-4ae8-82da-5be0fd2aeb25"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "title": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1647430361ffcba8c6": {
+      "type": "featured-image",
+      "disabled": true,
+      "settings": {
+        "image_height": "Original",
+        "mobile_height": "md",
+        "content_position": "middle-center",
+        "enable_button_separate": true,
+        "button_position": "middle-center",
+        "enable_parallax": false,
+        "image": "shopify:\/\/shop_images\/Trident_Black_Lifestyle_Homepage_Full_01.jpg",
+        "img_position": "center",
+        "overlay_opacity": 5,
+        "text_color": "white",
+        "heading": "",
+        "sub_heading": "",
+        "button_label": "",
+        "button_link": "#",
+        "button_style": "secondary",
+        "top_space_size": 0,
+        "bottom_space_size": 0
+      }
+    },
+    "16488427384e2ed568": {
+      "type": "rich-text",
+      "blocks": {
+        "164884273816bffa60-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed for Your Apple Watch",
+            "heading_size": "h1"
+          }
+        },
+        "164884273816bffa60-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our bands are designed for those individuals who enjoy their active lifestyle, but don't like to sacrifice their style for comfort. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164884273816bffa60-0",
+        "164884273816bffa60-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1641449308b1647083": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "164144930897445ccd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in the know."
+          }
+        },
+        "164144930897445ccd-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>News, product releases, & more.<\/p>"
+          }
+        },
+        "164144930897445ccd-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "164144930897445ccd-0",
+        "164144930897445ccd-1",
+        "164144930897445ccd-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1653022854c2f2cdda": {
+      "type": "collage",
+      "blocks": {
+        "165302285466ff7ae8-1": {
+          "type": "product",
+          "settings": {
+            "product": "nylon-sport-loop-for-apple-watch",
+            "second_image": true
+          }
+        },
+        "6e061854-1ad9-48e9-bafe-551e2370fbbc": {
+          "type": "product",
+          "settings": {
+            "product": "milanese-stainless-steel-band-for-apple-watch",
+            "second_image": false
+          }
+        },
+        "ceead61f-2e29-4e39-9bd6-d024b338d4d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Homepage_Image_0.0.7.png",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "165302285466ff7ae8-1",
+        "6e061854-1ad9-48e9-bafe-551e2370fbbc",
+        "ceead61f-2e29-4e39-9bd6-d024b338d4d5"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "16530231452a83fc4e": {
+      "type": "slideshow_text",
+      "blocks": {
+        "7e42cc8f-1315-48c2-a7d1-ca95cbbbf7d4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Apple Watch Bands",
+            "heading_size": "small",
+            "subheading": "Premium materials at affordable prices.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "33b63b05-331a-4fb0-8bbb-d3114016c8c7": {
+          "type": "slide",
+          "settings": {
+            "heading": "30+ Unique Styles",
+            "heading_size": "small",
+            "subheading": "Exclusive colors to match your style.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "fe55efd7-dc0f-401f-9544-5ad44b4b030d": {
+          "type": "slide",
+          "settings": {
+            "heading": "50,000+ Bands Delivered",
+            "heading_size": "small",
+            "subheading": "Ships daily from Jacksonville, Florida, USA.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "05695627-bb63-4484-9e5d-3b5b7ef26788": {
+          "type": "slide",
+          "settings": {
+            "heading": "Free Shipping & Returns",
+            "heading_size": "small",
+            "subheading": "Buy with confidence and find your perfect fit.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "11bc347f-81f6-4c19-b803-a46c2b6dcf13": {
+          "type": "slide",
+          "settings": {
+            "heading": "12 Month Warranty",
+            "heading_size": "small",
+            "subheading": "Free warranty included on every band.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "7e42cc8f-1315-48c2-a7d1-ca95cbbbf7d4",
+        "33b63b05-331a-4fb0-8bbb-d3114016c8c7",
+        "fe55efd7-dc0f-401f-9544-5ad44b4b030d",
+        "05695627-bb63-4484-9e5d-3b5b7ef26788",
+        "11bc347f-81f6-4c19-b803-a46c2b6dcf13"
+      ],
+      "settings": {
+        "desktop_top_space_size": 25,
+        "desktop_bottom_space_size": 25,
+        "mobile_top_space_size": 15,
+        "mobile_bottom_space_size": 15,
+        "layout": "full_bleed",
+        "slide_height": "extra-small",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1653023310138d64cd": {
+      "type": "rich-text",
+      "blocks": {
+        "16530233105cda8d7b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Committed to Excellence",
+            "heading_size": "h1"
+          }
+        },
+        "16530233105cda8d7b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just like the ever-evolving world of wearable technology, our commitment to providing luxurious quality bands at an affordable price continues to grow with each new product, allowing us to expand on the features you truly want with each and every release.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16530233105cda8d7b-0",
+        "16530233105cda8d7b-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16530233131766f133": {
+      "type": "featured-image",
+      "settings": {
+        "image_height": "Full",
+        "mobile_height": "xs",
+        "content_position": "bottom-center",
+        "enable_button_separate": false,
+        "button_position": "bottom-center",
+        "enable_parallax": false,
+        "image": "shopify:\/\/shop_images\/Homepage_Image_0.0.4.png",
+        "img_position": "center",
+        "overlay_opacity": 10,
+        "text_color": "white",
+        "heading": "Sport Loop",
+        "sub_heading": "Soft, breathable nylon weave with an easily adjustable hook‑and‑loop fastener.",
+        "button_label": "Now Shipping",
+        "button_link": "shopify:\/\/collections\/apple-watch",
+        "button_style": "secondary",
+        "top_space_size": 0,
+        "bottom_space_size": 0
+      }
+    },
+    "1653023377c8675540": {
+      "type": "logo-bar",
+      "blocks": {
+        "16530233777d5c62b9-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured_Partner_0.0.2_cdcb5fc6-5d4d-4dec-87ae-1c0aeae14600.png",
+            "image_width": 180,
+            "link": ""
+          }
+        },
+        "16530233777d5c62b9-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured_Partner_0.0.3_cb26ede3-0260-41dd-aa91-df957a9c7788.png",
+            "image_width": 180,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530233777d5c62b9-1",
+        "16530233777d5c62b9-0"
+      ],
+      "settings": {
+        "background_color": "#000000",
+        "title": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16530252602f698eb8": {
+      "type": "featured-product",
+      "blocks": {
+        "16530252609869728d-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16530252609869728d-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "16530252609869728d-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16530252609869728d-3": {
+          "type": "price",
+          "settings": {}
+        },
+        "16530252609869728d-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16530252609869728d-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "16530252609869728d-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16530252609869728d-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16530252609869728d-0",
+        "16530252609869728d-1",
+        "16530252609869728d-2",
+        "16530252609869728d-3",
+        "16530252609869728d-4",
+        "16530252609869728d-5",
+        "16530252609869728d-6",
+        "16530252609869728d-7"
+      ],
+      "settings": {
+        "product": "milanese-stainless-steel-band-for-apple-watch",
+        "color_scheme": "background-1",
+        "secondary_background": true,
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16530235732438b327": {
+      "type": "rich-text",
+      "blocks": {
+        "16530235731f043dc1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apple Watch bands that match your style",
+            "heading_size": "h1"
+          }
+        },
+        "51e60a8b-c24d-4c95-8800-18b3e6d1e293": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Answer a few questions and we’ll recommend the perfect band curated just for you.<\/p>"
+          }
+        },
+        "16530235731f043dc1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find your perfect fit >",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16530235731f043dc1-0",
+        "51e60a8b-c24d-4c95-8800-18b3e6d1e293",
+        "16530235731f043dc1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1653023632355ebf13": {
+      "type": "newsletter",
+      "blocks": {
+        "1653023632ab588731-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in the know."
+          }
+        },
+        "1653023632ab588731-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>News, product releases, & more.<\/p>"
+          }
+        },
+        "1653023632ab588731-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1653023632ab588731-0",
+        "1653023632ab588731-1",
+        "1653023632ab588731-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16530252734e000a9b": {
+      "type": "featured-press",
+      "disabled": true,
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/background.jpg",
+        "image_height_desktop": "auto",
+        "image_height_mobile": "auto",
+        "banner_title": "In The Press",
+        "title_color": "white",
+        "introduction": "We got featured here!",
+        "text_color": "#778379",
+        "box_shadow": "ftrd-intro-box-shadow",
+        "enable_logo_display": true,
+        "logo_position": "left",
+        "logo_height_mobile": "auto"
+      }
+    }
+  },
+  "order": [
+    "16478993227416a596",
+    "1647416379a6bd82f2",
+    "1647430361ffcba8c6",
+    "16488427384e2ed568",
+    "1641449308b1647083",
+    "1653022854c2f2cdda",
+    "16530231452a83fc4e",
+    "1653023310138d64cd",
+    "16530233131766f133",
+    "1653023377c8675540",
+    "16530252602f698eb8",
+    "16530235732438b327",
+    "1653023632355ebf13",
+    "16530252734e000a9b"
+  ]
+}
